@@ -22,4 +22,4 @@
 [7] J. Schrodt, A. Dudchenko, P. Knaup-Gregori, and M. Ganzinger, “Graph-representation of patient data: a systematic literature review,” J. Med. Syst., Mar. 2020, doi: 10.1007/s10916-020-1538-4.
 
 
-[8] J. G. Diaz Ochoa and F. Mustafa, "Graph Neural Network 
+[8] J. G. Diaz Ochoa and F. Mustafa, "Graph Neural Network Modelling as a potentially effective Method for predicting and analyzing Procedures based on Patient Diagnoses," medRxiv, (Preprint). Nov. 25, 2021. (Online). Available: doi.org.
