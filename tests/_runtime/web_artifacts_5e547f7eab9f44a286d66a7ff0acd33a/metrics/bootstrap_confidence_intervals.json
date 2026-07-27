@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "valid_replicates": 20,
+    "invalid_single_class_replicates": 0
+  },
+  "models": {
+    "logistic_regression": {
+      "name": "Logistic Regression",
+      "intervals": {
+        "pr_auc": {
+          "estimate": 0.21,
+          "bootstrap_mean": 0.21,
+          "ci_95_lower": 0.19,
+          "ci_95_upper": 0.22999999999999998
+        },
+        "roc_auc": {
+          "estimate": 0.65,
+          "bootstrap_mean": 0.65,
+          "ci_95_lower": 0.63,
+          "ci_95_upper": 0.67
+        },
+        "accuracy": {
+          "estimate": 0.7,
+          "bootstrap_mean": 0.7,
+          "ci_95_lower": 0.6799999999999999,
+          "ci_95_upper": 0.72
+        },
+        "balanced_accuracy": {
+          "estimate": 0.6,
+          "bootstrap_mean": 0.6,
+          "ci_95_lower": 0.58,
+          "ci_95_upper": 0.62
+        },
+        "precision": {
+          "estimate": 0.2,
+          "bootstrap_mean": 0.2,
+          "ci_95_lower": 0.18000000000000002,
+          "ci_95_upper": 0.22
+        },
+        "recall": {
+          "estimate": 0.5,
+          "bootstrap_mean": 0.5,
+          "ci_95_lower": 0.48,
+          "ci_95_upper": 0.52
+        },
+        "f1": {
+          "estimate": 0.28,
+          "bootstrap_mean": 0.28,
+          "ci_95_lower": 0.26,
+          "ci_95_upper": 0.30000000000000004
+        }
+      }
+    },
+    "pca_knn": {
+      "name": "PCA + k-Nearest Neighbours",
+      "intervals": {
+        "pr_auc": {
+          "estimate": 0.2,
+          "bootstrap_mean": 0.2,
+          "ci_95_lower": 0.18000000000000002,
+          "ci_95_upper": 0.22
+        },
+        "roc_auc": {
+          "estimate": 0.65,
+          "bootstrap_mean": 0.65,
+          "ci_95_lower": 0.63,
+          "ci_95_upper": 0.67
+        },
+        "accuracy": {
+          "estimate": 0.7,
+          "bootstrap_mean": 0.7,
+          "ci_95_lower": 0.6799999999999999,
+          "ci_95_upper": 0.72
+        },
+        "balanced_accuracy": {
+          "estimate": 0.6,
+          "bootstrap_mean": 0.6,
+          "ci_95_lower": 0.58,
+          "ci_95_upper": 0.62
+        },
+        "precision": {
+          "estimate": 0.2,
+          "bootstrap_mean": 0.2,
+          "ci_95_lower": 0.18000000000000002,
+          "ci_95_upper": 0.22
+        },
+        "recall": {
+          "estimate": 0.5,
+          "bootstrap_mean": 0.5,
+          "ci_95_lower": 0.48,
+          "ci_95_upper": 0.52
+        },
+        "f1": {
+          "estimate": 0.28,
+          "bootstrap_mean": 0.28,
+          "ci_95_lower": 0.26,
+          "ci_95_upper": 0.30000000000000004
+        }
+      }
+    },
+    "gcn": {
+      "name": "Graph Convolutional Network",
+      "intervals": {
+        "pr_auc": {
+          "estimate": 0.19,
+          "bootstrap_mean": 0.19,
+          "ci_95_lower": 0.17,
+          "ci_95_upper": 0.21
+        },
+        "roc_auc": {
+          "estimate": 0.65,
+          "bootstrap_mean": 0.65,
+          "ci_95_lower": 0.63,
+          "ci_95_upper": 0.67
+        },
+        "accuracy": {
+          "estimate": 0.7,
+          "bootstrap_mean": 0.7,
+          "ci_95_lower": 0.6799999999999999,
+          "ci_95_upper": 0.72
+        },
+        "balanced_accuracy": {
+          "estimate": 0.6,
+          "bootstrap_mean": 0.6,
+          "ci_95_lower": 0.58,
+          "ci_95_upper": 0.62
+        },
+        "precision": {
+          "estimate": 0.2,
+          "bootstrap_mean": 0.2,
+          "ci_95_lower": 0.18000000000000002,
+          "ci_95_upper": 0.22
+        },
+        "recall": {
+          "estimate": 0.5,
+          "bootstrap_mean": 0.5,
+          "ci_95_lower": 0.48,
+          "ci_95_upper": 0.52
+        },
+        "f1": {
+          "estimate": 0.28,
+          "bootstrap_mean": 0.28,
+          "ci_95_lower": 0.26,
+          "ci_95_upper": 0.30000000000000004
+        }
+      }
+    }
+  }
+}

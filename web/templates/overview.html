@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero-grid">
+  <article class="hero-panel">
+    <p class="eyebrow accent">HYBRID GRAPH + AI FRAMEWORK</p>
+    <h2>Can relational context improve 30-day readmission risk modelling?</h2>
+    <p>Hospital encounters become both structured feature rows and connected graph nodes. Three measured methods share one patient-safe split.</p>
+    <div class="hero-actions"><a class="button primary" href="{{ url_for('models') }}">Explore results</a><a class="button ghost" href="{{ url_for('graph') }}">Open graph</a></div>
+  </article>
+  <article class="question-card">
+    <span class="question-index">RQ</span>
+    <p>Predict whether a diabetes-related encounter will be followed by readmission within 30 days, using information available by discharge.</p>
+    <small>Associational research demonstration — not a clinical claim.</small>
+  </article>
+</section>
+<section class="metric-strip">
+  <div><span>Eligible encounters</span><strong>{{ "{:,}".format(dataset.eligible_rows) }}</strong></div>
+  <div><span>Unique patients</span><strong>{{ "{:,}".format(dataset.unique_patients) }}</strong></div>
+  <div><span>Positive prevalence</span><strong>{{ "%.1f%%"|format(dataset.positive_prevalence * 100) }}</strong></div>
+  <div><span>Graph nodes</span><strong>{{ "{:,}".format(graph_stats.total_nodes) }}</strong></div>
+  <div><span>Graph edges</span><strong>{{ "{:,}".format(graph_stats.total_edges) }}</strong></div>
+</section>
+<section class="section-head"><div><p class="eyebrow">MEASURED COMPARISON</p><h2>One split. Three analytical views.</h2></div><p>Ranked primarily by test PR-AUC because the positive class is uncommon.</p></section>
+<section class="model-card-grid">
+{% for model in comparison.models|sort(attribute='rank_by_test_pr_auc') %}
+  <article class="model-card {% if model.name == comparison.best_model %}best{% endif %}">
+    <div class="model-top"><span>#{{ model.rank_by_test_pr_auc }}</span>{% if model.name == comparison.best_model %}<em>Best PR-AUC</em>{% endif %}</div>
+    <h3>{{ model.name }}</h3>
+    <div class="score">{{ "%.3f"|format(model.test_metrics.pr_auc) }}<small>test PR-AUC</small></div>
+    <div class="mini-metrics"><span>ROC-AUC <b>{{ "%.3f"|format(model.test_metrics.roc_auc) }}</b></span><span>Recall <b>{{ "%.3f"|format(model.test_metrics.recall) }}</b></span></div>
+  </article>
+{% endfor %}
+</section>
+<section class="workflow card">
+  <p class="eyebrow">REPRODUCIBLE WORKFLOW</p>
+  <div class="workflow-line">
+    <div><b>01</b><span>Audit + map</span></div><i>→</i>
+    <div><b>02</b><span>Patient split</span></div><i>→</i>
+    <div><b>03</b><span>Tabular models</span></div><i>→</i>
+    <div><b>04</b><span>Relation graph</span></div><i>→</i>
+    <div><b>05</b><span>GCN + stress test</span></div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,14 @@
+{
+  "1": {
+    "encounter_id": "1",
+    "patient_nbr": "10",
+    "actual_target": 0,
+    "lr_probability": 0.2,
+    "pca_knn_probability": 0.3,
+    "gcn_probability": 0.4,
+    "lr_prediction": 0,
+    "pca_knn_prediction": 0,
+    "gcn_prediction": 1,
+    "nearest_graph_neighbours": []
+  }
+}

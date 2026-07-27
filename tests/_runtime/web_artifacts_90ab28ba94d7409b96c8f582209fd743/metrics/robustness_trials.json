@@ -1,0 +1,15 @@
+[
+  {
+    "scenario": "baseline",
+    "label": "Baseline",
+    "perturbation_type": "baseline",
+    "trial_seed": 42,
+    "edge_count_after": 50,
+    "pr_auc": 0.2,
+    "roc_auc": 0.6,
+    "recall": 0.5,
+    "f1": 0.25,
+    "balanced_accuracy": 0.55,
+    "probability_shift_mean_absolute": 0.0
+  }
+]

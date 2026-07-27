@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="metric-strip compact">
+  <div><span>Total typed nodes</span><strong>{{ "{:,}".format(graph_stats.total_nodes) }}</strong></div>
+  <div><span>Total typed edges</span><strong>{{ "{:,}".format(graph_stats.total_edges) }}</strong></div>
+  <div><span>Sample encounters</span><strong>{{ graph.sample_encounters }}</strong><small>Browser-safe only</small></div>
+  <div><span>Test similarity edges</span><strong>{{ "{:,}".format(graph_stats.encounter_projection.test.undirected_edges) }}</strong><small>No cross-split edges</small></div>
+</section>
+<section class="graph-layout">
+  <article class="card graph-stage">
+    <div class="graph-toolbar">
+      <div><p class="eyebrow">SAMPLED HETEROGENEOUS GRAPH</p><h2>Clinical relationship map</h2></div>
+      <label>Node type<select id="node-filter"><option value="all">All types</option></select></label>
+      <label>Relationship<select id="edge-filter"><option value="all">All relations</option></select></label>
+    </div>
+    <div id="graph-canvas" class="graph-canvas" aria-label="Interactive sampled healthcare graph"></div>
+    <div id="graph-legend" class="legend"></div>
+  </article>
+  <aside class="card node-inspector" id="node-inspector">
+    <p class="eyebrow">NODE INSPECTOR</p><h2>Select an encounter</h2>
+    <p>Choose a node to inspect its type and links. Encounter nodes reveal anonymized metadata, diagnoses, medications, outcome, and neighbours.</p>
+  </aside>
+</section>
+<section class="card"><p class="fine-print">{{ graph_stats.representation_note }} No fabricated doctor nodes are present because the source has no individual doctor identifier.</p></section>
+{% endblock %}
+{% block scripts %}
+<script>window.PAGE_DATA = {{ {"graph": graph, "stats": graph_stats}|tojson }};</script>
+<script src="{{ url_for('static', filename='js/graph_viewer.js') }}"></script>
+{% endblock %}

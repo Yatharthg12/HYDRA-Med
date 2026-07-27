@@ -1,0 +1,10 @@
+{
+  "total_nodes": 200,
+  "total_edges": 400,
+  "representation_note": "Sampled only.",
+  "encounter_projection": {
+    "test": {
+      "undirected_edges": 50
+    }
+  }
+}

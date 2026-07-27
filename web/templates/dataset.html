@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="metric-strip compact">
+{% for name, item in dataset.variants.items() %}
+  <div><span>{{ name|title }} encounters</span><strong>{{ "{:,}".format(item.rows) }}</strong><small>{{ "{:,}".format(item.unique_patients) }} patients</small></div>
+{% endfor %}
+  <div><span>Excluded end-of-life</span><strong>{{ "{:,}".format(dataset.excluded_end_of_life_rows) }}</strong><small>Mapped descriptions</small></div>
+  <div><span>Source columns</span><strong>{{ dataset.source_columns }}</strong><small>IDs excluded from predictors</small></div>
+</section>
+<section class="card">
+  <p class="eyebrow">COHORT SCOPE</p>
+  <h2>Full source data and reduced experiment are distinct</h2>
+  <p>The source files provide the full encounter collection. The measured model
+    results on this dashboard use the deterministic reduced-mode cohort of
+    <b>{{ "{:,}".format(dataset.eligible_rows) }}</b> eligible encounters from
+    <b>{{ "{:,}".format(dataset.unique_patients) }}</b> patients after mapped
+    end-of-life exclusions. Exactly
+    <b>{{ "{:,}".format(dataset.excluded_end_of_life_rows) }}</b>
+    death, expiration, or hospice encounters were excluded before modelling.</p>
+</section>
+<section class="two-column">
+  <article class="card">
+    <div class="card-head"><div><p class="eyebrow">PATIENT-SAFE PARTITIONS</p><h2>Shared grouped split</h2></div><span class="verified">✓ No overlap</span></div>
+    <div class="split-bars">
+    {% for name, item in dataset.splits.counts.items() %}
+      <div><label><b>{{ name|title }}</b><span>{{ "{:,}".format(item.encounters) }} encounters · {{ "{:,}".format(item.patients) }} patients</span></label><div class="bar"><i style="width: {{ item.encounters / dataset.eligible_rows * 100 }}%"></i></div></div>
+    {% endfor %}
+    </div>
+    <p class="fine-print">Pairwise patient overlap counts: train/validation {{ dataset.splits.patient_overlap_counts.train_validation }}, train/test {{ dataset.splits.patient_overlap_counts.train_test }}, validation/test {{ dataset.splits.patient_overlap_counts.validation_test }}.</p>
+  </article>
+  <article class="card">
+    <p class="eyebrow">TARGET DISTRIBUTION</p><h2>Why accuracy needs context</h2>
+    <div id="target-chart" class="chart" aria-label="Readmission target distribution chart"></div>
+    <p class="fine-print">A model predicting only the majority class can appear accurate while identifying no early readmissions. PR-AUC, recall, and balanced accuracy expose that failure.</p>
+  </article>
+</section>
+<section class="four-column">
+  <article class="card"><p class="eyebrow">AGE GROUPS</p><div id="age-chart" class="chart small"></div></article>
+  <article class="card"><p class="eyebrow">ADMISSION TYPE</p><div id="admission-chart" class="chart small"></div></article>
+  <article class="card"><p class="eyebrow">PRIMARY DIAGNOSIS</p><div id="diagnosis-chart" class="chart small"></div></article>
+  <article class="card"><p class="eyebrow">ACTIVE MEDICATIONS</p><div id="medication-chart" class="chart small"></div></article>
+</section>
+<section class="two-column">
+  <article class="card">
+    <p class="eyebrow">AUDITABLE MISSINGNESS</p><h2>Original literal “?” values</h2>
+    <div class="table-wrap"><table><thead><tr><th>Column</th><th>Missing</th></tr></thead><tbody>
+    {% for column, fraction in dataset.initial_missingness.items() %}
+      <tr><td>{{ column }}</td><td>{{ "%.1f%%"|format(fraction * 100) }}</td></tr>
+    {% endfor %}
+    </tbody></table></div>
+  </article>
+  <article class="card">
+    <p class="eyebrow">CLEANING DECISIONS</p><h2>Explicit, minimal removal</h2>
+    {% for item in dataset.removed_columns %}<div class="decision"><b>{{ item.column }}</b><p>{{ item.reason }}</p></div>{% endfor %}
+    <div class="decision"><b>Labs</b><p>Absent A1C and glucose tests are retained as “Not Measured,” a meaningful clinical category.</p></div>
+    <div class="decision"><b>Mapped outcome eligibility</b><p>Death, expiration, and hospice descriptions are excluded by text inspection, not unexplained IDs.</p></div>
+  </article>
+</section>
+<section class="card">
+  <div class="card-head"><div><p class="eyebrow">SEARCHABLE DATA DICTIONARY</p><h2>Original UCI encounter fields</h2></div><label class="dictionary-search">Filter columns<input id="dictionary-search" type="search" placeholder="Try diagnosis, medication, ID…"></label></div>
+  <div class="table-wrap"><table id="dictionary-table"><thead><tr><th>Column</th><th>Role</th><th>Implemented interpretation</th></tr></thead><tbody>
+  {% for item in dataset.data_dictionary.columns %}
+    <tr><td><code>{{ item.column }}</code></td><td>{{ item.role }}</td><td>{{ item.description }}</td></tr>
+  {% endfor %}
+  </tbody></table></div>
+  <details class="mapping-details"><summary>View IDS mapping descriptions</summary>
+    {% for mapping_name, values in dataset.data_dictionary.id_mappings.items() %}
+    <h3>{{ mapping_name }}</h3><div class="mapping-chips">{% for identifier, description in values.items() %}<span><b>{{ identifier }}</b> {{ description }}</span>{% endfor %}</div>
+    {% endfor %}
+  </details>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>window.PAGE_DATA = {{ dataset.distributions|tojson }};</script>
+{% endblock %}

@@ -1,0 +1,202 @@
+ALL RIGHTS RESERVED
+EDUCATIONAL VIEWING AND EVALUATION LICENSE
+Version 1.0 — 2026
+
+Copyright (c) 2026 Yatharth Garg
+All rights reserved.
+
+IMPORTANT NOTICE
+
+This project is source-visible for educational inspection and authorized
+evaluation only. It is NOT open-source software, free software, public-domain
+software, or a permissively licensed work.
+
+Except for the narrow permissions expressly stated below, no rights are granted
+to any person or organization. Access to this repository does not imply
+permission to use its contents.
+
+1. DEFINITIONS
+
+"Project" means the original project-specific source code, documentation,
+research text, diagrams, user-interface design, model configurations,
+experiments, generated artifacts, figures, and other materials contained in
+this repository, to the extent that they are owned or controlled by the Author.
+
+"Author" means Yatharth Garg.
+
+"Viewer" means any person or organization that accesses the Project.
+
+"Authorized Evaluator" means an academic supervisor, instructor, examiner,
+review panel member, competition judge, hackathon judge, or similar person who
+has been given access for the sole purpose of assessing the Author's work.
+
+"Written Permission" means prior, explicit permission from the Author in a
+written communication that clearly identifies the permitted use.
+
+2. LIMITED PERMISSION FOR GENERAL VIEWERS
+
+A Viewer may:
+
+a. view and read the Project for private, personal, non-commercial educational
+   reference;
+
+b. study the high-level research concepts, algorithms, methodology, and general
+   ideas described by the Project; and
+
+c. discuss or cite those high-level ideas for legitimate educational purposes,
+   with clear attribution to:
+
+   "Yatharth Garg, A Hybrid Framework of Graph Algorithms and AI for Relational
+   Modeling of Healthcare Data."
+
+This permission does not allow the Viewer to copy, reproduce, execute, modify,
+adapt, distribute, publish, deploy, or otherwise use the Project itself.
+Incidental technical copies made automatically and temporarily by a web browser
+solely to display the repository are permitted.
+
+Copyright does not generally protect abstract ideas, methods, or principles.
+Accordingly, a Viewer may independently develop an original work inspired by
+general educational concepts learned from the Project, provided that the Viewer
+does not copy or adapt the Project's protected expression, including its code,
+documentation, diagrams, interface, selection and arrangement of materials,
+model artifacts, written analysis, or figures.
+
+3. LIMITED EVALUATION EXCEPTION
+
+An Authorized Evaluator may, solely for evaluating the Author's submission:
+
+a. download or clone one temporary evaluation copy;
+
+b. install dependencies and execute the Project in an isolated evaluation
+   environment;
+
+c. inspect the Project's outputs and implementation; and
+
+d. retain only those records strictly required by the evaluator's institution
+   or competition rules.
+
+This exception does not permit reuse, modification, redistribution, publication,
+deployment, commercialization, incorporation into another project, or use after
+the evaluation purpose ends. Any temporary local copy must be deleted when it is
+no longer required for the evaluation, subject to applicable record-retention
+rules.
+
+4. PROHIBITED ACTIVITIES
+
+Unless the Author gives prior Written Permission, no Viewer, including an
+Authorized Evaluator outside the limited scope of Section 3, may:
+
+a. copy, reproduce, mirror, scrape, archive, republish, or redistribute any
+   substantial portion of the Project;
+
+b. use, run, modify, translate, adapt, reverse engineer, or create derivative
+   works from the Project;
+
+c. incorporate any Project material into software, research, coursework,
+   publications, presentations, demonstrations, datasets, models, products,
+   services, or other projects;
+
+d. submit or present the Project, or any copied or adapted portion of it, as
+   another person's academic, research, competition, hackathon, employment, or
+   professional work;
+
+e. sell, license, sublicense, rent, monetize, commercialize, host, provide as a
+   service, or otherwise exploit the Project;
+
+f. deploy or apply the Project in any operational, institutional, commercial,
+   healthcare, clinical, decision-making, or production context;
+
+g. use the Project or its outputs to make decisions about any real person,
+   patient, organization, or healthcare process;
+
+h. use Project materials to train, fine-tune, evaluate, benchmark, or populate
+   any machine-learning system, dataset, code corpus, or automated generation
+   system;
+
+i. remove, hide, or alter copyright, authorship, attribution, disclaimer, or
+   license notices; or
+
+j. imply endorsement, partnership, authorship, approval, or affiliation by the
+   Author.
+
+5. PUBLIC HOSTING PLATFORMS
+
+A public source-hosting platform may independently grant platform-specific
+rights under its own terms, such as the technical ability to view or fork a
+public repository. Those platform terms do not grant any additional copyright
+license from the Author. A platform fork, where technically permitted, may not
+be used, modified, redistributed, published as an independent project, or
+exploited beyond what the platform's mandatory terms require.
+
+If strict prevention of forking or local copying is required, the repository
+should be kept private and shared only with authorized reviewers. This License
+does not override mandatory rights granted by a hosting platform's terms.
+
+6. THIRD-PARTY MATERIALS
+
+This License applies only to Project materials owned or controlled by the
+Author. It does not alter the rights or licenses applicable to:
+
+a. the UCI Diabetes 130-US Hospitals for Years 1999–2008 dataset or its mapping
+   files;
+
+b. external Python packages, frameworks, libraries, fonts, or other
+   dependencies;
+
+c. third-party research papers, references, quotations, or publications; or
+
+d. any material owned by another contributor or rights holder.
+
+Each third-party item remains governed by its respective rights holder and
+license. No ownership of third-party material is claimed by this License.
+
+7. PERMISSION REQUESTS
+
+Any use not expressly permitted by this License requires prior Written
+Permission from the Author. A request should identify:
+
+a. the requester;
+b. the exact Project material involved;
+c. the intended purpose, audience, and duration;
+d. whether the use is public, commercial, academic, or institutional; and
+e. the proposed method of attribution.
+
+Silence, repository access, a public fork, or failure to respond does not
+constitute permission.
+
+8. RESEARCH AND HEALTHCARE DISCLAIMER
+
+The Project is an academic research demonstration. It is not medical advice, a
+medical device, a clinical decision-support system, or a clinically validated
+product. It must not be used for diagnosis, treatment, triage, patient
+management, resource allocation, or any other real-world healthcare decision.
+
+9. NO WARRANTY
+
+THE PROJECT IS PROVIDED "AS IS" FOR VIEWING AND AUTHORIZED EVALUATION, WITHOUT
+WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF ACCURACY,
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT,
+REPRODUCIBILITY, SECURITY, OR RELIABILITY.
+
+10. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE AUTHOR SHALL NOT BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL,
+OR OTHER DAMAGES ARISING FROM ACCESS TO, INABILITY TO ACCESS, MISUSE OF, OR
+RELIANCE ON THE PROJECT.
+
+11. TERMINATION
+
+Any permission granted by this License terminates automatically upon violation
+of its terms. On termination, the violating party must immediately stop all use
+and delete every copy under its control, except where retention is required by
+law.
+
+12. RESERVATION OF RIGHTS
+
+All rights not expressly granted in this License are reserved by the Author. No
+patent, trademark, publicity, privacy, database, or other right is granted by
+implication, estoppel, or otherwise.
+
+For permissions beyond educational viewing or authorized evaluation, contact
+Yatharth Garg through the repository owner's published contact channel.

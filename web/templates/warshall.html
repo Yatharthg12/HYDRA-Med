@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="warshall-layout">
+  <article class="card matrix-panel">
+    <div class="card-head">
+      <div>
+        <p class="eyebrow">TRANSITIVE REACHABILITY</p>
+        <h2 id="warshall-title">T^(0) · Direct relationships</h2>
+      </div>
+      <span class="verified">Programmatically verified</span>
+    </div>
+    <div id="warshall-intermediate" class="intermediate-banner" aria-live="polite">
+      Current intermediate: none (direct relationships)
+    </div>
+    <div id="warshall-matrix" class="matrix" aria-live="polite"></div>
+    <div class="matrix-legend" aria-label="Matrix legend">
+      <span><i class="legend-known"></i>Direct or previously known</span>
+      <span><i class="legend-new"></i>New this iteration</span>
+      <span><i class="legend-unreachable"></i>Unreachable</span>
+      <span><i class="legend-diagonal"></i>Diagonal/self relationship</span>
+    </div>
+    <div class="iteration-controls">
+      <button id="warshall-prev" class="button ghost" type="button" disabled>
+        Previous
+      </button>
+      <div>
+        <label class="sr-only" for="warshall-step-slider">Warshall iteration</label>
+        <input id="warshall-step-slider" type="range" min="0" max="5" step="1" value="0"
+               aria-valuemin="0" aria-valuemax="5" aria-valuenow="0">
+        <strong id="warshall-counter">Step 0 of 5</strong>
+      </div>
+      <button id="warshall-next" class="button primary" type="button">Next</button>
+    </div>
+    <div class="control-row">
+      <button id="warshall-reset" class="button ghost" type="button">
+        Reset to direct relationships
+      </button>
+      <button id="warshall-autoplay" class="button ghost" type="button"
+              aria-pressed="false">Auto-play iterations</button>
+    </div>
+    <p class="fine-print">Keyboard: use Left/Right arrows over the matrix panel, or
+      focus the slider and use its standard arrow-key controls.</p>
+  </article>
+
+  <aside class="card explanation-panel">
+    <p class="eyebrow">ITERATION EXPLANATION</p>
+    <h2 id="warshall-description">The original adjacency matrix contains only direct relationships.</h2>
+    <div id="warshall-calculations" class="calculation-list" aria-live="polite"></div>
+    <div class="complexity">
+      <div><small>Time</small><b>{{ warshall.time_complexity }}</b></div>
+      <div><small>Memory</small><b>{{ warshall.memory_complexity }}</b></div>
+    </div>
+    <p class="warning-note">{{ warshall.scope_note }}</p>
+  </aside>
+</section>
+
+<section class="card">
+  <div class="card-head">
+    <div><p class="eyebrow">CURRENT REACHABILITY GRAPH</p><h2>Directed graph at the selected step</h2></div>
+    <span class="subtle">Updates with the matrix</span>
+  </div>
+  <div id="warshall-graph" class="warshall-graph" role="img"
+       aria-label="Directed graph of the selected Warshall reachability matrix"></div>
+</section>
+
+<section class="card formula-card">
+  <span>T[i,j] = T_previous[i,j] OR
+    (T_previous[i,k] AND T_previous[k,j])</span>
+  <p>Each iteration permits one additional entity type to act as an intermediate node.</p>
+</section>
+{% endblock %}
+{% block scripts %}<script>window.PAGE_DATA = {{ warshall|tojson }};</script>{% endblock %}

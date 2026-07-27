@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="case-search card">
+  <div><p class="eyebrow">TEST ENCOUNTER LOOKUP</p><h2>Compare model decisions case by case</h2><p>Search uses encounter identifiers only; the dataset contains no patient names.</p></div>
+  <form id="case-form"><label for="case-id">Encounter ID</label><div class="search-row"><input id="case-id" name="encounter_id" list="encounter-list" autocomplete="off" placeholder="Enter a test encounter ID"><datalist id="encounter-list">{% for value in encounter_ids %}<option value="{{ value }}">{% endfor %}</datalist><button class="button primary" type="submit">Load case</button></div></form>
+</section>
+<section id="case-empty" class="empty-state card"><span>⌕</span><h2>Select a test encounter</h2><p>Probabilities, validation-threshold decisions, key discharge-time features, and graph neighbours will appear here.</p></section>
+<section id="case-result" class="case-result hidden" aria-live="polite">
+  <article class="card case-outcome"></article>
+  <div class="three-column probability-cards"></div>
+  <div class="two-column">
+    <article class="card clinical-features"></article>
+    <article class="card graph-neighbours"></article>
+  </div>
+  <p class="warning-note">Research demonstration only. A probability is not a diagnosis, treatment recommendation, or validated clinical risk score.</p>
+</section>
+{% endblock %}

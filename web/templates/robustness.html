@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section-head"><div><p class="eyebrow">REPEATED RELATIONAL STRESS TEST</p><h2>How sensitive is the primary GCN to graph errors?</h2></div><p>Features, labels, trained weights, and test nodes stay fixed. Each non-baseline scenario is evaluated across recorded perturbation seeds.</p></section>
+<section class="two-column robustness-grid">
+  <article class="card">
+    <div class="graph-toolbar"><div><p class="eyebrow">MEANS, INTERVALS, AND TRIALS</p><h2>Metric response</h2></div><label>Metric<select id="robustness-metric"><option value="pr_auc">PR-AUC</option><option value="roc_auc">ROC-AUC</option><option value="recall">Recall</option><option value="f1">F1</option><option value="probability_shift_mean_absolute">Mean probability shift</option></select></label></div>
+    <div id="robustness-chart" class="chart line-chart tall"></div>
+    <div class="matrix-legend" aria-label="Perturbation type legend">
+      <span><i style="background:#35d0ba"></i>Baseline</span>
+      <span><i style="background:#ff7b88"></i>Edge removal</span>
+      <span><i style="background:#7c8cff"></i>Noise addition</span>
+    </div>
+    <label class="checkbox-control"><input id="show-robustness-trials" type="checkbox" checked> Show individual trial points</label>
+  </article>
+  <article class="card">
+    <p class="eyebrow">SCENARIO ACCOUNTING</p><h2>Repeated evaluations</h2>
+    <div class="scenario-list">
+    {% for row in robustness_summary %}
+      <div><span><b>{{ row.label }}</b><small>{{ row.perturbation_type|replace("_", " ")|title }} · {{ row.number_of_trials }} trials</small></span><strong>{{ "{:,.0f}".format(row.edge_count_after.mean) }}</strong></div>
+    {% endfor %}
+    </div>
+    <p class="warning-note">Small non-monotonic changes under corruption can arise
+      from perturbation variance. They are not evidence that erroneous edges improve
+      the model.</p>
+  </article>
+</section>
+<section class="card">
+  <div class="card-head"><div><p class="eyebrow">AGGREGATED RESULTS</p><h2>Mean and 95% t intervals</h2></div>
+    <div class="download-row"><a class="button ghost" href="/downloads/results/robustness_summary.csv">Summary CSV</a><a class="button ghost" href="/downloads/results/robustness_summary.json">Summary JSON</a><a class="button ghost" href="/downloads/results/robustness_trials.csv">Trials CSV</a><a class="button ghost" href="/downloads/results/robustness_trials.json">Trials JSON</a></div>
+  </div>
+  <div class="table-wrap"><table><thead><tr><th>Scenario</th><th>Trials</th><th>PR-AUC mean [95% CI]</th><th>ROC-AUC mean [95% CI]</th><th>Recall mean [95% CI]</th><th>F1 mean [95% CI]</th><th>Probability shift mean [95% CI]</th></tr></thead><tbody>
+{% for row in robustness_summary %}<tr><td><b>{{ row.label }}</b></td><td>{{ row.number_of_trials }}</td>
+{% for metric in ["pr_auc", "roc_auc", "recall", "f1", "probability_shift_mean_absolute"] %}{% set value = row.metrics[metric] %}<td>{{ "%.4f"|format(value.mean) }} [{{ "%.4f"|format(value.ci_95_lower) }}, {{ "%.4f"|format(value.ci_95_upper) }}]</td>{% endfor %}
+</tr>{% endfor %}
+</tbody></table></div></section>
+<section class="card"><p class="fine-print">The normalized adjacency is recomputed
+for every trial. Duplicate edges and unintended self-edges are excluded. The
+experiment does not perturb clinical features, outcomes, or test-set membership.</p></section>
+{% endblock %}
+{% block scripts %}<script>window.PAGE_DATA = {{ {"summary": robustness_summary, "trials": robustness_trials}|tojson }};</script>{% endblock %}

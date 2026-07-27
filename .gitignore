@@ -1,0 +1,49 @@
+# Python environments, caches, and coverage
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Test and runtime scratch space
+.test-tmp/
+tests/_generated/
+tests/_runtime/
+*.log
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Editors and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Third-party and row-level data: acquire and regenerate locally
+data/raw/*.csv
+data/processed/*.csv
+!data/**/.gitkeep
+
+# Rebuildable model binaries and row-level predictions
+artifacts/models/*
+artifacts/predictions/*
+!artifacts/models/.gitkeep
+!artifacts/predictions/.gitkeep
+
+# Browser sample retains de-identified encounter references
+artifacts/graphs/sample_graph.json
+
+# Aggregate metrics, aggregate figures, graph statistics, and the five-node
+# Warshall artifact are intentionally not ignored after manual review.
+
+# Private drafts and third-party reference publications
+docs/*.docx
+docs/*.pptx
+docs/References/*.pdf

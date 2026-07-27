@@ -1,0 +1,226 @@
+{
+  "models": [
+    {
+      "name": "Logistic Regression",
+      "slug": "logistic_regression",
+      "rank_by_test_pr_auc": 1,
+      "test_metrics": {
+        "threshold": 0.4,
+        "roc_auc": 0.65,
+        "pr_auc": 0.21,
+        "accuracy": 0.7,
+        "balanced_accuracy": 0.6,
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1": 0.28,
+        "confusion_matrix": [
+          [
+            8,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "validation_selected_threshold": 0.4,
+      "training_seconds": 1.2,
+      "coefficients": {
+        "strongest_positive": [
+          {
+            "feature": "Feature A",
+            "coefficient": 0.3
+          }
+        ],
+        "strongest_negative": [
+          {
+            "feature": "Feature B",
+            "coefficient": -0.2
+          }
+        ]
+      },
+      "curves": {
+        "roc": {
+          "fpr": [
+            0,
+            1
+          ],
+          "tpr": [
+            0,
+            1
+          ]
+        },
+        "precision_recall": {
+          "recall": [
+            0,
+            1
+          ],
+          "precision": [
+            1,
+            0.1
+          ]
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "validation_pr_auc": 0.2
+        }
+      ],
+      "cumulative_explained_variance": [
+        0.5,
+        0.9
+      ]
+    },
+    {
+      "name": "PCA + k-Nearest Neighbours",
+      "slug": "pca_knn",
+      "rank_by_test_pr_auc": 2,
+      "test_metrics": {
+        "threshold": 0.4,
+        "roc_auc": 0.65,
+        "pr_auc": 0.2,
+        "accuracy": 0.7,
+        "balanced_accuracy": 0.6,
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1": 0.28,
+        "confusion_matrix": [
+          [
+            8,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "validation_selected_threshold": 0.4,
+      "training_seconds": 1.2,
+      "coefficients": {
+        "strongest_positive": [
+          {
+            "feature": "Feature A",
+            "coefficient": 0.3
+          }
+        ],
+        "strongest_negative": [
+          {
+            "feature": "Feature B",
+            "coefficient": -0.2
+          }
+        ]
+      },
+      "curves": {
+        "roc": {
+          "fpr": [
+            0,
+            1
+          ],
+          "tpr": [
+            0,
+            1
+          ]
+        },
+        "precision_recall": {
+          "recall": [
+            0,
+            1
+          ],
+          "precision": [
+            1,
+            0.1
+          ]
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "validation_pr_auc": 0.2
+        }
+      ],
+      "cumulative_explained_variance": [
+        0.5,
+        0.9
+      ]
+    },
+    {
+      "name": "Graph Convolutional Network",
+      "slug": "gcn",
+      "rank_by_test_pr_auc": 3,
+      "test_metrics": {
+        "threshold": 0.4,
+        "roc_auc": 0.65,
+        "pr_auc": 0.19,
+        "accuracy": 0.7,
+        "balanced_accuracy": 0.6,
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1": 0.28,
+        "confusion_matrix": [
+          [
+            8,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "validation_selected_threshold": 0.4,
+      "training_seconds": 1.2,
+      "coefficients": {
+        "strongest_positive": [
+          {
+            "feature": "Feature A",
+            "coefficient": 0.3
+          }
+        ],
+        "strongest_negative": [
+          {
+            "feature": "Feature B",
+            "coefficient": -0.2
+          }
+        ]
+      },
+      "curves": {
+        "roc": {
+          "fpr": [
+            0,
+            1
+          ],
+          "tpr": [
+            0,
+            1
+          ]
+        },
+        "precision_recall": {
+          "recall": [
+            0,
+            1
+          ],
+          "precision": [
+            1,
+            0.1
+          ]
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "validation_pr_auc": 0.2
+        }
+      ],
+      "cumulative_explained_variance": [
+        0.5,
+        0.9
+      ]
+    }
+  ],
+  "best_model": "Logistic Regression",
+  "highest_recall_model": "Graph Convolutional Network",
+  "ranking_basis": "Test PR-AUC."
+}

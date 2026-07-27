@@ -1,0 +1,89 @@
+{
+  "eligible_rows": 100,
+  "unique_patients": 90,
+  "positive_prevalence": 0.11,
+  "excluded_end_of_life_rows": 2,
+  "source_columns": 50,
+  "variants": {
+    "reduced": {
+      "rows": 100,
+      "unique_patients": 90
+    }
+  },
+  "splits": {
+    "counts": {
+      "train": {
+        "encounters": 70,
+        "patients": 70,
+        "positive_count": 5,
+        "positive_prevalence": 0.1
+      },
+      "validation": {
+        "encounters": 15,
+        "patients": 15,
+        "positive_count": 5,
+        "positive_prevalence": 0.1
+      },
+      "test": {
+        "encounters": 15,
+        "patients": 15,
+        "positive_count": 5,
+        "positive_prevalence": 0.1
+      }
+    },
+    "patient_overlap_counts": {
+      "train_validation": 0,
+      "train_test": 0,
+      "validation_test": 0
+    }
+  },
+  "distributions": {
+    "age": [
+      {
+        "label": "[60-70)",
+        "count": 30
+      }
+    ],
+    "primary_diagnosis": [
+      {
+        "label": "Diabetes",
+        "count": 20
+      }
+    ],
+    "active_medications": [
+      {
+        "label": "insulin",
+        "count": 30
+      }
+    ],
+    "readmission": [
+      {
+        "label": "Positive",
+        "count": 11
+      }
+    ]
+  },
+  "initial_missingness": {
+    "weight": 0.96
+  },
+  "removed_columns": [
+    {
+      "column": "weight",
+      "reason": "Missing"
+    }
+  ],
+  "data_dictionary": {
+    "columns": [
+      {
+        "column": "age",
+        "role": "Predictor source",
+        "description": "Age"
+      }
+    ],
+    "id_mappings": {
+      "admission_type_id": {
+        "1": "Emergency"
+      }
+    }
+  }
+}

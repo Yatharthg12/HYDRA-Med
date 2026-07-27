@@ -1,0 +1,78 @@
+[
+  {
+    "scenario": "baseline",
+    "label": "Baseline",
+    "perturbation_type": "baseline",
+    "perturbation_level": 0,
+    "number_of_trials": 1,
+    "trial_seeds": [
+      42
+    ],
+    "edge_count_before": 50,
+    "edge_count_after": {
+      "mean": 50
+    },
+    "metrics": {
+      "pr_auc": {
+        "n": 1,
+        "mean": 0.2,
+        "standard_deviation": 0,
+        "median": 0.2,
+        "minimum": 0.2,
+        "maximum": 0.2,
+        "ci_95_lower": 0.2,
+        "ci_95_upper": 0.2
+      },
+      "roc_auc": {
+        "n": 1,
+        "mean": 0.6,
+        "standard_deviation": 0,
+        "median": 0.6,
+        "minimum": 0.6,
+        "maximum": 0.6,
+        "ci_95_lower": 0.6,
+        "ci_95_upper": 0.6
+      },
+      "balanced_accuracy": {
+        "n": 1,
+        "mean": 0.55,
+        "standard_deviation": 0,
+        "median": 0.55,
+        "minimum": 0.55,
+        "maximum": 0.55,
+        "ci_95_lower": 0.55,
+        "ci_95_upper": 0.55
+      },
+      "recall": {
+        "n": 1,
+        "mean": 0.5,
+        "standard_deviation": 0,
+        "median": 0.5,
+        "minimum": 0.5,
+        "maximum": 0.5,
+        "ci_95_lower": 0.5,
+        "ci_95_upper": 0.5
+      },
+      "f1": {
+        "n": 1,
+        "mean": 0.25,
+        "standard_deviation": 0,
+        "median": 0.25,
+        "minimum": 0.25,
+        "maximum": 0.25,
+        "ci_95_lower": 0.25,
+        "ci_95_upper": 0.25
+      },
+      "probability_shift_mean_absolute": {
+        "n": 1,
+        "mean": 0,
+        "standard_deviation": 0,
+        "median": 0,
+        "minimum": 0,
+        "maximum": 0,
+        "ci_95_lower": 0,
+        "ci_95_upper": 0
+      }
+    }
+  }
+]

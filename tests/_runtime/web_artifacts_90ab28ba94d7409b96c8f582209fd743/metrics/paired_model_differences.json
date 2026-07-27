@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "probability_note": "Descriptive paired-resampling measure."
+  },
+  "comparisons": [
+    {
+      "left_name": "Logistic Regression",
+      "right_name": "Graph Convolutional Network",
+      "metrics": {
+        "pr_auc": {
+          "observed_difference": 0.01,
+          "bootstrap_mean_difference": 0.01,
+          "ci_95_lower": -0.01,
+          "ci_95_upper": 0.03,
+          "proportion_above_zero": 0.7,
+          "two_sided_bootstrap_tail_probability": 0.4
+        },
+        "roc_auc": {
+          "observed_difference": 0.01,
+          "bootstrap_mean_difference": 0.01,
+          "ci_95_lower": -0.01,
+          "ci_95_upper": 0.03,
+          "proportion_above_zero": 0.7,
+          "two_sided_bootstrap_tail_probability": 0.4
+        },
+        "recall": {
+          "observed_difference": 0.01,
+          "bootstrap_mean_difference": 0.01,
+          "ci_95_lower": -0.01,
+          "ci_95_upper": 0.03,
+          "proportion_above_zero": 0.7,
+          "two_sided_bootstrap_tail_probability": 0.4
+        },
+        "f1": {
+          "observed_difference": 0.01,
+          "bootstrap_mean_difference": 0.01,
+          "ci_95_lower": -0.01,
+          "ci_95_upper": 0.03,
+          "proportion_above_zero": 0.7,
+          "two_sided_bootstrap_tail_probability": 0.4
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research dashboard for 30-day hospital readmission modelling.">
+  <title>{{ title }} · HealthGraph Readmission Lab</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body data-page="{{ page_id }}">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">HG</span>
+        <div><strong>HealthGraph</strong><small>Readmission Lab</small></div>
+      </div>
+      <nav>
+        <a href="{{ url_for('overview') }}" {% if page_id == 'overview' %}aria-current="page"{% endif %}><span>01</span>Overview</a>
+        <a href="{{ url_for('dataset') }}" {% if page_id == 'dataset' %}aria-current="page"{% endif %}><span>02</span>Dataset explorer</a>
+        <a href="{{ url_for('warshall') }}" {% if page_id == 'warshall' %}aria-current="page"{% endif %}><span>03</span>Warshall lab</a>
+        <a href="{{ url_for('models') }}" {% if page_id == 'models' %}aria-current="page"{% endif %}><span>04</span>Model comparison</a>
+        <a href="{{ url_for('graph') }}" {% if page_id == 'graph' %}aria-current="page"{% endif %}><span>05</span>Graph explorer</a>
+        <a href="{{ url_for('robustness') }}" {% if page_id == 'robustness' %}aria-current="page"{% endif %}><span>06</span>Robustness</a>
+        <a href="{{ url_for('cases') }}" {% if page_id == 'cases' %}aria-current="page"{% endif %}><span>07</span>Case explorer</a>
+        <a href="{{ url_for('limitations') }}" {% if page_id == 'limitations' %}aria-current="page"{% endif %}><span>08</span>Methodology</a>
+      </nav>
+      <div class="sidebar-note"><span class="status-dot"></span>Precomputed research artifacts</div>
+    </aside>
+    <div class="main-column">
+      <header class="topbar">
+        <button class="menu-button" id="menu-button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <div>
+          <p class="eyebrow">UROP · RELATIONAL HEALTHCARE ANALYTICS</p>
+          <h1>{{ title }}</h1>
+        </div>
+        <div class="research-pill">Research use only</div>
+      </header>
+      <main id="main-content" tabindex="-1">
+        {% block content %}{% endblock %}
+      </main>
+      <footer>
+        Discharge-time risk modelling demonstration · Not medical advice or a clinical device
+      </footer>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

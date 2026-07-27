@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="setup-state card">
+  <div class="setup-icon">↻</div>
+  <p class="eyebrow">ARTIFACT STATUS</p>
+  <h2>{{ message or "The dashboard is ready; the research artifacts are not generated yet." }}</h2>
+  {% if missing %}<p>Missing groups: <strong>{{ missing|join(", ") }}</strong>. Ordinary page loads never train models.</p>{% endif %}
+  {% if command %}
+  <p>Run this exact command from the repository root, then refresh:</p>
+  <div class="command"><code>{{ command }}</code><button data-copy="{{ command }}">Copy</button></div>
+  {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,15 @@
+{
+  "nodes": [
+    {
+      "id": "E:1",
+      "type": "Encounter",
+      "label": "Encounter 1",
+      "encounter_id": "1"
+    }
+  ],
+  "links": [],
+  "metadata": {
+    "1": {}
+  },
+  "sample_encounters": 1
+}
