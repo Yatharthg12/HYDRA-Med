@@ -27,7 +27,6 @@ tests/_runtime/
 Thumbs.db
 
 # Third-party and row-level data: acquire and regenerate locally
-data/raw/*.csv
 data/processed/*.csv
 !data/**/.gitkeep
 
