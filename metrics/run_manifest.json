@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "dataset_mode": "reduced",
+  "analysis_profile": "research",
+  "analysis_signature": {
+    "profile": "research",
+    "bootstrap_replicates": 1000,
+    "gcn_seeds": [
+      42,
+      52,
+      62,
+      72,
+      82
+    ],
+    "robustness_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "pca_grid": [
+      25,
+      50,
+      75,
+      100,
+      150
+    ],
+    "graph_ablation": true
+  },
+  "random_seed": 42,
+  "total_runtime_seconds": 206.43520210000133,
+  "models": [
+    "logistic_regression",
+    "pca_knn",
+    "gcn"
+  ],
+  "split_disjoint": true,
+  "warshall_verified": true
+}
