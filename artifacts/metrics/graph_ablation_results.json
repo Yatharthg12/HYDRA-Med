@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "status": "complete",
+    "primary_seed": 42,
+    "ablation_seed": 4242,
+    "test_tuning_performed": false
+  },
+  "results": [
+    {
+      "scenario": "original_graph",
+      "label": "Original clinical similarity graph",
+      "design": "Clinically constructed split-local relation graph.",
+      "training_strategy": "Primary prespecified GCN trained on the original train graph.",
+      "threshold": 0.4798469841480255,
+      "training_seconds": 6.957096099999035,
+      "selected_epoch": 40,
+      "test_edge_count": 16524,
+      "test_metrics": {
+        "threshold": 0.4798469841480255,
+        "roc_auc": 0.605814889812545,
+        "pr_auc": 0.1865659017773951,
+        "accuracy": 0.5143648321218415,
+        "balanced_accuracy": 0.5688177199900529,
+        "precision": 0.1411371237458194,
+        "recall": 0.6393939393939394,
+        "f1": 0.23123287671232876,
+        "confusion_matrix": [
+          [
+            1275,
+            1284
+          ],
+          [
+            119,
+            211
+          ]
+        ],
+        "support": 2889,
+        "positive_support": 330
+      },
+      "difference_from_original": {
+        "pr_auc": 0.0,
+        "roc_auc": 0.0,
+        "accuracy": 0.0,
+        "balanced_accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "scenario": "identity_only",
+      "label": "Identity-only adjacency",
+      "design": "Self-loops only; encounters cannot aggregate neighbour information.",
+      "training_strategy": "Retrained on identity-only train adjacency; epoch and threshold selected on identity-only validation adjacency.",
+      "threshold": 0.5223390460014343,
+      "training_seconds": 1.7114324000031047,
+      "selected_epoch": 23,
+      "test_edge_count": 0,
+      "test_metrics": {
+        "threshold": 0.5223390460014343,
+        "roc_auc": 0.6829964356341848,
+        "pr_auc": 0.23698844203634756,
+        "accuracy": 0.6711664935964001,
+        "balanced_accuracy": 0.6348928913993392,
+        "precision": 0.19246031746031747,
+        "recall": 0.5878787878787879,
+        "f1": 0.28998505231689087,
+        "confusion_matrix": [
+          [
+            1745,
+            814
+          ],
+          [
+            136,
+            194
+          ]
+        ],
+        "support": 2889,
+        "positive_support": 330
+      },
+      "difference_from_original": {
+        "pr_auc": 0.05042254025895246,
+        "roc_auc": 0.07718154582163972,
+        "accuracy": 0.15680166147455865,
+        "balanced_accuracy": 0.06607517140928632,
+        "precision": 0.05132319371449806,
+        "recall": -0.051515151515151514,
+        "f1": 0.05875217560456211
+      }
+    },
+    {
+      "scenario": "random_graph",
+      "label": "Matched random graph",
+      "design": "Uniform simple random graph with the original node and edge counts and resampled edge weights.",
+      "training_strategy": "Retrained on random train adjacency; epoch and threshold selected on random validation adjacency.",
+      "threshold": 0.466865211725235,
+      "training_seconds": 10.94093889999931,
+      "selected_epoch": 68,
+      "test_edge_count": 16524,
+      "test_metrics": {
+        "threshold": 0.466865211725235,
+        "roc_auc": 0.6199983421554347,
+        "pr_auc": 0.1857128672872134,
+        "accuracy": 0.5600553824852891,
+        "balanced_accuracy": 0.5800916551209634,
+        "precision": 0.14914243102162567,
+        "recall": 0.6060606060606061,
+        "f1": 0.23937761819269898,
+        "confusion_matrix": [
+          [
+            1418,
+            1141
+          ],
+          [
+            130,
+            200
+          ]
+        ],
+        "support": 2889,
+        "positive_support": 330
+      },
+      "difference_from_original": {
+        "pr_auc": -0.0008530344901817033,
+        "roc_auc": 0.014183452342889646,
+        "accuracy": 0.0456905503634476,
+        "balanced_accuracy": 0.011273935130910462,
+        "precision": 0.008005307275806256,
+        "recall": -0.033333333333333326,
+        "f1": 0.008144741480370227
+      }
+    },
+    {
+      "scenario": "feature_shuffled",
+      "label": "Feature-shuffled inference",
+      "design": "Test feature rows are deterministically permuted while graph edges and labels remain fixed.",
+      "training_strategy": "Inference-only stress test of the primary GCN; no retraining and no test-set tuning.",
+      "threshold": 0.4798469841480255,
+      "training_seconds": 0.0,
+      "selected_epoch": 40,
+      "test_edge_count": 16524,
+      "test_metrics": {
+        "threshold": 0.4798469841480255,
+        "roc_auc": 0.531897521522375,
+        "pr_auc": 0.13755104357550424,
+        "accuracy": 0.5860159224645206,
+        "balanced_accuracy": 0.5313972077160823,
+        "precision": 0.12991452991452992,
+        "recall": 0.46060606060606063,
+        "f1": 0.20266666666666666,
+        "confusion_matrix": [
+          [
+            1541,
+            1018
+          ],
+          [
+            178,
+            152
+          ]
+        ],
+        "support": 2889,
+        "positive_support": 330
+      },
+      "difference_from_original": {
+        "pr_auc": -0.04901485820189086,
+        "roc_auc": -0.07391736829017004,
+        "accuracy": 0.07165109034267914,
+        "balanced_accuracy": -0.037420512273970585,
+        "precision": -0.011222593831289485,
+        "recall": -0.17878787878787877,
+        "f1": -0.028566210045662094
+      }
+    }
+  ]
+}

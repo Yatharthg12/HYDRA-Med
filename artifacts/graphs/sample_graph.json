@@ -1,0 +1,3220 @@
+{
+  "nodes": [
+    {
+      "id": "E:40869978",
+      "type": "Encounter",
+      "label": "Encounter 40869978",
+      "encounter_id": "40869978",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:24214437",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "D:Digestive",
+      "type": "DiagnosisCategory",
+      "label": "Digestive"
+    },
+    {
+      "id": "D:Other",
+      "type": "DiagnosisCategory",
+      "label": "Other"
+    },
+    {
+      "id": "M:rosiglitazone",
+      "type": "Medication",
+      "label": "rosiglitazone"
+    },
+    {
+      "id": "AT:Emergency",
+      "type": "AdmissionType",
+      "label": "Emergency"
+    },
+    {
+      "id": "AS:NULL",
+      "type": "AdmissionSource",
+      "label": "NULL"
+    },
+    {
+      "id": "E:237540642",
+      "type": "Encounter",
+      "label": "Encounter 237540642",
+      "encounter_id": "237540642",
+      "age_group": "[40-50)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:94275864",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "D:Diabetes",
+      "type": "DiagnosisCategory",
+      "label": "Diabetes"
+    },
+    {
+      "id": "M:insulin",
+      "type": "Medication",
+      "label": "insulin"
+    },
+    {
+      "id": "AS:Emergency Room",
+      "type": "AdmissionSource",
+      "label": "Emergency Room"
+    },
+    {
+      "id": "E:192682164",
+      "type": "Encounter",
+      "label": "Encounter 192682164",
+      "encounter_id": "192682164",
+      "age_group": "[70-80)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:85937607",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "D:Genitourinary",
+      "type": "DiagnosisCategory",
+      "label": "Genitourinary"
+    },
+    {
+      "id": "M:metformin",
+      "type": "Medication",
+      "label": "metformin"
+    },
+    {
+      "id": "M:glipizide",
+      "type": "Medication",
+      "label": "glipizide"
+    },
+    {
+      "id": "AT:Elective",
+      "type": "AdmissionType",
+      "label": "Elective"
+    },
+    {
+      "id": "AS:Physician Referral",
+      "type": "AdmissionSource",
+      "label": "Physician Referral"
+    },
+    {
+      "id": "E:25720758",
+      "type": "Encounter",
+      "label": "Encounter 25720758",
+      "encounter_id": "25720758",
+      "age_group": "[60-70)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:25832196",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "D:Respiratory",
+      "type": "DiagnosisCategory",
+      "label": "Respiratory"
+    },
+    {
+      "id": "D:Neoplasm",
+      "type": "DiagnosisCategory",
+      "label": "Neoplasm"
+    },
+    {
+      "id": "D:Circulatory",
+      "type": "DiagnosisCategory",
+      "label": "Circulatory"
+    },
+    {
+      "id": "AT:NULL",
+      "type": "AdmissionType",
+      "label": "NULL"
+    },
+    {
+      "id": "E:163425780",
+      "type": "Encounter",
+      "label": "Encounter 163425780",
+      "encounter_id": "163425780",
+      "age_group": "[60-70)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:97396200",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "AT:Not Available",
+      "type": "AdmissionType",
+      "label": "Not Available"
+    },
+    {
+      "id": "E:86202348",
+      "type": "Encounter",
+      "label": "Encounter 86202348",
+      "encounter_id": "86202348",
+      "age_group": "[70-80)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:395559",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "M:glyburide",
+      "type": "Medication",
+      "label": "glyburide"
+    },
+    {
+      "id": "E:156224436",
+      "type": "Encounter",
+      "label": "Encounter 156224436",
+      "encounter_id": "156224436",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:43417926",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "D:Injury",
+      "type": "DiagnosisCategory",
+      "label": "Injury"
+    },
+    {
+      "id": "M:pioglitazone",
+      "type": "Medication",
+      "label": "pioglitazone"
+    },
+    {
+      "id": "E:120329664",
+      "type": "Encounter",
+      "label": "Encounter 120329664",
+      "encounter_id": "120329664",
+      "age_group": "[80-90)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:93871665",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "AT:Urgent",
+      "type": "AdmissionType",
+      "label": "Urgent"
+    },
+    {
+      "id": "E:175191654",
+      "type": "Encounter",
+      "label": "Encounter 175191654",
+      "encounter_id": "175191654",
+      "age_group": "[60-70)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:42624612",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:20881446",
+      "type": "Encounter",
+      "label": "Encounter 20881446",
+      "encounter_id": "20881446",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:1093878",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:251008704",
+      "type": "Encounter",
+      "label": "Encounter 251008704",
+      "encounter_id": "251008704",
+      "age_group": "[40-50)",
+      "target": 1,
+      "outcome": "Readmitted <30 days"
+    },
+    {
+      "id": "P:83756205",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:192910836",
+      "type": "Encounter",
+      "label": "Encounter 192910836",
+      "encounter_id": "192910836",
+      "age_group": "[70-80)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:98239086",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:98221074",
+      "type": "Encounter",
+      "label": "Encounter 98221074",
+      "encounter_id": "98221074",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:84557691",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:283157646",
+      "type": "Encounter",
+      "label": "Encounter 283157646",
+      "encounter_id": "283157646",
+      "age_group": "[80-90)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:54683469",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:129194568",
+      "type": "Encounter",
+      "label": "Encounter 129194568",
+      "encounter_id": "129194568",
+      "age_group": "[20-30)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:24558714",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:165684852",
+      "type": "Encounter",
+      "label": "Encounter 165684852",
+      "encounter_id": "165684852",
+      "age_group": "[10-20)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:24809553",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:215573634",
+      "type": "Encounter",
+      "label": "Encounter 215573634",
+      "encounter_id": "215573634",
+      "age_group": "[60-70)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:55920240",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:21820548",
+      "type": "Encounter",
+      "label": "Encounter 21820548",
+      "encounter_id": "21820548",
+      "age_group": "[40-50)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:24327378",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "AS:Transfer from a hospital",
+      "type": "AdmissionSource",
+      "label": "Transfer from a hospital"
+    },
+    {
+      "id": "E:201063792",
+      "type": "Encounter",
+      "label": "Encounter 201063792",
+      "encounter_id": "201063792",
+      "age_group": "[80-90)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:33336198",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:69346878",
+      "type": "Encounter",
+      "label": "Encounter 69346878",
+      "encounter_id": "69346878",
+      "age_group": "[60-70)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:26068302",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:70481340",
+      "type": "Encounter",
+      "label": "Encounter 70481340",
+      "encounter_id": "70481340",
+      "age_group": "[70-80)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:4904253",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:272987334",
+      "type": "Encounter",
+      "label": "Encounter 272987334",
+      "encounter_id": "272987334",
+      "age_group": "[30-40)",
+      "target": 1,
+      "outcome": "Readmitted <30 days"
+    },
+    {
+      "id": "P:88844373",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:253988106",
+      "type": "Encounter",
+      "label": "Encounter 253988106",
+      "encounter_id": "253988106",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:109586574",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:69780924",
+      "type": "Encounter",
+      "label": "Encounter 69780924",
+      "encounter_id": "69780924",
+      "age_group": "[70-80)",
+      "target": 1,
+      "outcome": "Readmitted <30 days"
+    },
+    {
+      "id": "P:2145096",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:232144842",
+      "type": "Encounter",
+      "label": "Encounter 232144842",
+      "encounter_id": "232144842",
+      "age_group": "[70-80)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:58333167",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:143655000",
+      "type": "Encounter",
+      "label": "Encounter 143655000",
+      "encounter_id": "143655000",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:39378429",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:70571880",
+      "type": "Encounter",
+      "label": "Encounter 70571880",
+      "encounter_id": "70571880",
+      "age_group": "[70-80)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:23380344",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:164798136",
+      "type": "Encounter",
+      "label": "Encounter 164798136",
+      "encounter_id": "164798136",
+      "age_group": "[60-70)",
+      "target": 1,
+      "outcome": "Readmitted <30 days"
+    },
+    {
+      "id": "P:40961997",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:93072042",
+      "type": "Encounter",
+      "label": "Encounter 93072042",
+      "encounter_id": "93072042",
+      "age_group": "[70-80)",
+      "target": 1,
+      "outcome": "Readmitted <30 days"
+    },
+    {
+      "id": "P:5286411",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "AS:Transfer from another health care facility",
+      "type": "AdmissionSource",
+      "label": "Transfer from another health care facility"
+    },
+    {
+      "id": "E:68367930",
+      "type": "Encounter",
+      "label": "Encounter 68367930",
+      "encounter_id": "68367930",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:20572227",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "D:Musculoskeletal",
+      "type": "DiagnosisCategory",
+      "label": "Musculoskeletal"
+    },
+    {
+      "id": "E:176336916",
+      "type": "Encounter",
+      "label": "Encounter 176336916",
+      "encounter_id": "176336916",
+      "age_group": "[60-70)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:91107549",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:64981044",
+      "type": "Encounter",
+      "label": "Encounter 64981044",
+      "encounter_id": "64981044",
+      "age_group": "[90-100)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:23691933",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:134934138",
+      "type": "Encounter",
+      "label": "Encounter 134934138",
+      "encounter_id": "134934138",
+      "age_group": "[80-90)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:73015425",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:98446578",
+      "type": "Encounter",
+      "label": "Encounter 98446578",
+      "encounter_id": "98446578",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:23444199",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:90778098",
+      "type": "Encounter",
+      "label": "Encounter 90778098",
+      "encounter_id": "90778098",
+      "age_group": "[60-70)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:2714580",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "AS:Not Available",
+      "type": "AdmissionSource",
+      "label": "Not Available"
+    },
+    {
+      "id": "E:158217882",
+      "type": "Encounter",
+      "label": "Encounter 158217882",
+      "encounter_id": "158217882",
+      "age_group": "[60-70)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:23341320",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:200354850",
+      "type": "Encounter",
+      "label": "Encounter 200354850",
+      "encounter_id": "200354850",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:61302105",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:254721300",
+      "type": "Encounter",
+      "label": "Encounter 254721300",
+      "encounter_id": "254721300",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:87558408",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:345581018",
+      "type": "Encounter",
+      "label": "Encounter 345581018",
+      "encounter_id": "345581018",
+      "age_group": "[40-50)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:152901392",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:185060862",
+      "type": "Encounter",
+      "label": "Encounter 185060862",
+      "encounter_id": "185060862",
+      "age_group": "[80-90)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:88647516",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:326154806",
+      "type": "Encounter",
+      "label": "Encounter 326154806",
+      "encounter_id": "326154806",
+      "age_group": "[70-80)",
+      "target": 1,
+      "outcome": "Readmitted <30 days"
+    },
+    {
+      "id": "P:98060184",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:66826362",
+      "type": "Encounter",
+      "label": "Encounter 66826362",
+      "encounter_id": "66826362",
+      "age_group": "[50-60)",
+      "target": 1,
+      "outcome": "Readmitted <30 days"
+    },
+    {
+      "id": "P:740664",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:245560674",
+      "type": "Encounter",
+      "label": "Encounter 245560674",
+      "encounter_id": "245560674",
+      "age_group": "[60-70)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:91968480",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:210010740",
+      "type": "Encounter",
+      "label": "Encounter 210010740",
+      "encounter_id": "210010740",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:84601350",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:160816590",
+      "type": "Encounter",
+      "label": "Encounter 160816590",
+      "encounter_id": "160816590",
+      "age_group": "[70-80)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:48137589",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:179207790",
+      "type": "Encounter",
+      "label": "Encounter 179207790",
+      "encounter_id": "179207790",
+      "age_group": "[60-70)",
+      "target": 1,
+      "outcome": "Readmitted <30 days"
+    },
+    {
+      "id": "P:23920047",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:61866030",
+      "type": "Encounter",
+      "label": "Encounter 61866030",
+      "encounter_id": "61866030",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:76925493",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:88114236",
+      "type": "Encounter",
+      "label": "Encounter 88114236",
+      "encounter_id": "88114236",
+      "age_group": "[60-70)",
+      "target": 1,
+      "outcome": "Readmitted <30 days"
+    },
+    {
+      "id": "P:26389431",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:371362052",
+      "type": "Encounter",
+      "label": "Encounter 371362052",
+      "encounter_id": "371362052",
+      "age_group": "[80-90)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:32392908",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:102594762",
+      "type": "Encounter",
+      "label": "Encounter 102594762",
+      "encounter_id": "102594762",
+      "age_group": "[80-90)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:36998496",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:59395470",
+      "type": "Encounter",
+      "label": "Encounter 59395470",
+      "encounter_id": "59395470",
+      "age_group": "[60-70)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:114457590",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:99500148",
+      "type": "Encounter",
+      "label": "Encounter 99500148",
+      "encounter_id": "99500148",
+      "age_group": "[70-80)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:104279958",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:72097950",
+      "type": "Encounter",
+      "label": "Encounter 72097950",
+      "encounter_id": "72097950",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:1880469",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:283789884",
+      "type": "Encounter",
+      "label": "Encounter 283789884",
+      "encounter_id": "283789884",
+      "age_group": "[80-90)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:41783481",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    },
+    {
+      "id": "E:3413892",
+      "type": "Encounter",
+      "label": "Encounter 3413892",
+      "encounter_id": "3413892",
+      "age_group": "[50-60)",
+      "target": 0,
+      "outcome": "Not within 30 days"
+    },
+    {
+      "id": "P:5161536",
+      "type": "Patient",
+      "label": "Anonymous patient"
+    }
+  ],
+  "links": [
+    {
+      "source": "E:40869978",
+      "target": "P:24214437",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:40869978",
+      "target": "D:Digestive",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "E:40869978",
+      "target": "D:Other",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "E:40869978",
+      "target": "M:rosiglitazone",
+      "relation": "received_medication"
+    },
+    {
+      "source": "E:40869978",
+      "target": "AT:Emergency",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "E:40869978",
+      "target": "AS:NULL",
+      "relation": "originated_from"
+    },
+    {
+      "source": "D:Digestive",
+      "target": "E:120329664",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Digestive",
+      "target": "E:192910836",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Digestive",
+      "target": "E:129194568",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Digestive",
+      "target": "E:272987334",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Digestive",
+      "target": "E:176336916",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Digestive",
+      "target": "E:98446578",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Digestive",
+      "target": "E:185060862",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Digestive",
+      "target": "E:66826362",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Digestive",
+      "target": "E:245560674",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Digestive",
+      "target": "E:99500148",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:237540642",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:192682164",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:86202348",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:156224436",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:175191654",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:20881446",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:283157646",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:129194568",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:165684852",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:215573634",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:21820548",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:272987334",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:69780924",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:143655000",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:164798136",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:68367930",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:176336916",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:64981044",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:134934138",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:98446578",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:254721300",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:345581018",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:185060862",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:66826362",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:245560674",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:59395470",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Other",
+      "target": "E:283789884",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:237540642",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:86202348",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:156224436",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:20881446",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:251008704",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:192910836",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:129194568",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:165684852",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:215573634",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:70481340",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:272987334",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:232144842",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:143655000",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:70571880",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:93072042",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:158217882",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:200354850",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:185060862",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:210010740",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:160816590",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:179207790",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:61866030",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:88114236",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:102594762",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Emergency",
+      "target": "E:99500148",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AS:NULL",
+      "target": "E:69346878",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:NULL",
+      "target": "E:70571880",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:NULL",
+      "target": "E:64981044",
+      "relation": "originated_from"
+    },
+    {
+      "source": "E:237540642",
+      "target": "P:94275864",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:237540642",
+      "target": "D:Diabetes",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "E:237540642",
+      "target": "M:insulin",
+      "relation": "received_medication"
+    },
+    {
+      "source": "E:237540642",
+      "target": "AS:Emergency Room",
+      "relation": "originated_from"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:192682164",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:120329664",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:175191654",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:20881446",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:251008704",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:283157646",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:165684852",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:21820548",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:70481340",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:272987334",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:93072042",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:90778098",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:200354850",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Diabetes",
+      "target": "E:72097950",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:25720758",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:156224436",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:120329664",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:175191654",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:20881446",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:251008704",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:192910836",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:129194568",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:165684852",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:201063792",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:69346878",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:272987334",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:253988106",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:232144842",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:70571880",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:176336916",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:134934138",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:90778098",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:200354850",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:326154806",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:66826362",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:61866030",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:102594762",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:insulin",
+      "target": "E:72097950",
+      "relation": "received_medication"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:25720758",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:86202348",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:156224436",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:120329664",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:20881446",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:251008704",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:192910836",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:98221074",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:129194568",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:165684852",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:215573634",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:201063792",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:70481340",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:272987334",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:69780924",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:232144842",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:143655000",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:176336916",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:158217882",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:200354850",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:185060862",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:326154806",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:245560674",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:210010740",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:160816590",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:179207790",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:61866030",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:102594762",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:99500148",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:72097950",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Emergency Room",
+      "target": "E:3413892",
+      "relation": "originated_from"
+    },
+    {
+      "source": "E:192682164",
+      "target": "P:85937607",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:192682164",
+      "target": "D:Genitourinary",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "E:192682164",
+      "target": "M:metformin",
+      "relation": "received_medication"
+    },
+    {
+      "source": "E:192682164",
+      "target": "M:glipizide",
+      "relation": "received_medication"
+    },
+    {
+      "source": "E:192682164",
+      "target": "AT:Elective",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "E:192682164",
+      "target": "AS:Physician Referral",
+      "relation": "originated_from"
+    },
+    {
+      "source": "D:Genitourinary",
+      "target": "E:163425780",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Genitourinary",
+      "target": "E:120329664",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Genitourinary",
+      "target": "E:215573634",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Genitourinary",
+      "target": "E:70571880",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Genitourinary",
+      "target": "E:93072042",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Genitourinary",
+      "target": "E:158217882",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Genitourinary",
+      "target": "E:160816590",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Genitourinary",
+      "target": "E:179207790",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Genitourinary",
+      "target": "E:102594762",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "M:metformin",
+      "target": "E:25720758",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:metformin",
+      "target": "E:86202348",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:metformin",
+      "target": "E:175191654",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:metformin",
+      "target": "E:164798136",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:metformin",
+      "target": "E:68367930",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:metformin",
+      "target": "E:176336916",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:metformin",
+      "target": "E:200354850",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:metformin",
+      "target": "E:254721300",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:metformin",
+      "target": "E:345581018",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:metformin",
+      "target": "E:371362052",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:metformin",
+      "target": "E:102594762",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:metformin",
+      "target": "E:99500148",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:metformin",
+      "target": "E:283789884",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:glipizide",
+      "target": "E:192910836",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:glipizide",
+      "target": "E:93072042",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:glipizide",
+      "target": "E:64981044",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:glipizide",
+      "target": "E:90778098",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:glipizide",
+      "target": "E:3413892",
+      "relation": "received_medication"
+    },
+    {
+      "source": "AT:Elective",
+      "target": "E:175191654",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Elective",
+      "target": "E:283157646",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Elective",
+      "target": "E:201063792",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Elective",
+      "target": "E:253988106",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Elective",
+      "target": "E:164798136",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Elective",
+      "target": "E:68367930",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Elective",
+      "target": "E:176336916",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Elective",
+      "target": "E:98446578",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Elective",
+      "target": "E:345581018",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Elective",
+      "target": "E:59395470",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Elective",
+      "target": "E:283789884",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:163425780",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:175191654",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:283157646",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:253988106",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:164798136",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:68367930",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:134934138",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:98446578",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:254721300",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:345581018",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:66826362",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:371362052",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:59395470",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Physician Referral",
+      "target": "E:283789884",
+      "relation": "originated_from"
+    },
+    {
+      "source": "E:25720758",
+      "target": "P:25832196",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:25720758",
+      "target": "D:Respiratory",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "E:25720758",
+      "target": "D:Neoplasm",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "E:25720758",
+      "target": "D:Circulatory",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "E:25720758",
+      "target": "AT:NULL",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:86202348",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:251008704",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:98221074",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:70481340",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:253988106",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:69780924",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:232144842",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:164798136",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:98446578",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:200354850",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:185060862",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:326154806",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:210010740",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:160816590",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:88114236",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:102594762",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:59395470",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Respiratory",
+      "target": "E:72097950",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Neoplasm",
+      "target": "E:253988106",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Neoplasm",
+      "target": "E:345581018",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:163425780",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:156224436",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:175191654",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:251008704",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:192910836",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:98221074",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:165684852",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:201063792",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:69346878",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:69780924",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:232144842",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:143655000",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:70571880",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:164798136",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:93072042",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:64981044",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:134934138",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:90778098",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:158217882",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:345581018",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:326154806",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:245560674",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:210010740",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:160816590",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:179207790",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:61866030",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:88114236",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:99500148",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Circulatory",
+      "target": "E:3413892",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "AT:NULL",
+      "target": "E:98221074",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:NULL",
+      "target": "E:21820548",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:NULL",
+      "target": "E:3413892",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "E:163425780",
+      "target": "P:97396200",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:163425780",
+      "target": "AT:Not Available",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Not Available",
+      "target": "E:69346878",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Not Available",
+      "target": "E:64981044",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "E:86202348",
+      "target": "P:395559",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:86202348",
+      "target": "M:glyburide",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:glyburide",
+      "target": "E:251008704",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:glyburide",
+      "target": "E:201063792",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:glyburide",
+      "target": "E:69346878",
+      "relation": "received_medication"
+    },
+    {
+      "source": "M:glyburide",
+      "target": "E:102594762",
+      "relation": "received_medication"
+    },
+    {
+      "source": "E:156224436",
+      "target": "P:43417926",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:156224436",
+      "target": "D:Injury",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "E:156224436",
+      "target": "M:pioglitazone",
+      "relation": "received_medication"
+    },
+    {
+      "source": "D:Injury",
+      "target": "E:283157646",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Injury",
+      "target": "E:253988106",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Injury",
+      "target": "E:61866030",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Injury",
+      "target": "E:102594762",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "E:120329664",
+      "target": "P:93871665",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:120329664",
+      "target": "AT:Urgent",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Urgent",
+      "target": "E:69780924",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Urgent",
+      "target": "E:134934138",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Urgent",
+      "target": "E:90778098",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Urgent",
+      "target": "E:254721300",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Urgent",
+      "target": "E:326154806",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Urgent",
+      "target": "E:66826362",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Urgent",
+      "target": "E:245560674",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Urgent",
+      "target": "E:371362052",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "AT:Urgent",
+      "target": "E:72097950",
+      "relation": "admitted_as"
+    },
+    {
+      "source": "E:175191654",
+      "target": "P:42624612",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:20881446",
+      "target": "P:1093878",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:251008704",
+      "target": "P:83756205",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:192910836",
+      "target": "P:98239086",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:98221074",
+      "target": "P:84557691",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:283157646",
+      "target": "P:54683469",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:129194568",
+      "target": "P:24558714",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:165684852",
+      "target": "P:24809553",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:215573634",
+      "target": "P:55920240",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:21820548",
+      "target": "P:24327378",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:21820548",
+      "target": "AS:Transfer from a hospital",
+      "relation": "originated_from"
+    },
+    {
+      "source": "AS:Transfer from a hospital",
+      "target": "E:88114236",
+      "relation": "originated_from"
+    },
+    {
+      "source": "E:201063792",
+      "target": "P:33336198",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:69346878",
+      "target": "P:26068302",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:70481340",
+      "target": "P:4904253",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:272987334",
+      "target": "P:88844373",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:253988106",
+      "target": "P:109586574",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:69780924",
+      "target": "P:2145096",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:232144842",
+      "target": "P:58333167",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:143655000",
+      "target": "P:39378429",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:70571880",
+      "target": "P:23380344",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:164798136",
+      "target": "P:40961997",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:93072042",
+      "target": "P:5286411",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:93072042",
+      "target": "AS:Transfer from another health care facility",
+      "relation": "originated_from"
+    },
+    {
+      "source": "E:68367930",
+      "target": "P:20572227",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:68367930",
+      "target": "D:Musculoskeletal",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Musculoskeletal",
+      "target": "E:254721300",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Musculoskeletal",
+      "target": "E:371362052",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "D:Musculoskeletal",
+      "target": "E:59395470",
+      "relation": "diagnosed_with"
+    },
+    {
+      "source": "E:176336916",
+      "target": "P:91107549",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:64981044",
+      "target": "P:23691933",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:134934138",
+      "target": "P:73015425",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:98446578",
+      "target": "P:23444199",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:90778098",
+      "target": "P:2714580",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:90778098",
+      "target": "AS:Not Available",
+      "relation": "originated_from"
+    },
+    {
+      "source": "E:158217882",
+      "target": "P:23341320",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:200354850",
+      "target": "P:61302105",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:254721300",
+      "target": "P:87558408",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:345581018",
+      "target": "P:152901392",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:185060862",
+      "target": "P:88647516",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:326154806",
+      "target": "P:98060184",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:66826362",
+      "target": "P:740664",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:245560674",
+      "target": "P:91968480",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:210010740",
+      "target": "P:84601350",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:160816590",
+      "target": "P:48137589",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:179207790",
+      "target": "P:23920047",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:61866030",
+      "target": "P:76925493",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:88114236",
+      "target": "P:26389431",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:371362052",
+      "target": "P:32392908",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:102594762",
+      "target": "P:36998496",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:59395470",
+      "target": "P:114457590",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:99500148",
+      "target": "P:104279958",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:72097950",
+      "target": "P:1880469",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:283789884",
+      "target": "P:41783481",
+      "relation": "has_encounter"
+    },
+    {
+      "source": "E:3413892",
+      "target": "P:5161536",
+      "relation": "has_encounter"
+    }
+  ],
+  "metadata": {
+    "40869978": {
+      "diagnoses": [
+        "Digestive",
+        "Other"
+      ],
+      "active_medications": [
+        "rosiglitazone"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "NULL"
+    },
+    "237540642": {
+      "diagnoses": [
+        "Diabetes",
+        "Other"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "192682164": {
+      "diagnoses": [
+        "Genitourinary",
+        "Diabetes",
+        "Other"
+      ],
+      "active_medications": [
+        "metformin",
+        "glipizide"
+      ],
+      "admission_type": "Elective",
+      "admission_source": "Physician Referral"
+    },
+    "25720758": {
+      "diagnoses": [
+        "Respiratory",
+        "Neoplasm",
+        "Circulatory"
+      ],
+      "active_medications": [
+        "metformin",
+        "insulin"
+      ],
+      "admission_type": "NULL",
+      "admission_source": "Emergency Room"
+    },
+    "163425780": {
+      "diagnoses": [
+        "Genitourinary",
+        "Circulatory"
+      ],
+      "active_medications": [],
+      "admission_type": "Not Available",
+      "admission_source": "Physician Referral"
+    },
+    "86202348": {
+      "diagnoses": [
+        "Respiratory",
+        "Other"
+      ],
+      "active_medications": [
+        "metformin",
+        "glyburide"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "156224436": {
+      "diagnoses": [
+        "Injury",
+        "Circulatory",
+        "Other"
+      ],
+      "active_medications": [
+        "pioglitazone",
+        "insulin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "120329664": {
+      "diagnoses": [
+        "Digestive",
+        "Genitourinary",
+        "Diabetes"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Urgent",
+      "admission_source": "Emergency Room"
+    },
+    "175191654": {
+      "diagnoses": [
+        "Diabetes",
+        "Circulatory",
+        "Other"
+      ],
+      "active_medications": [
+        "metformin",
+        "insulin"
+      ],
+      "admission_type": "Elective",
+      "admission_source": "Physician Referral"
+    },
+    "20881446": {
+      "diagnoses": [
+        "Diabetes",
+        "Other"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "251008704": {
+      "diagnoses": [
+        "Diabetes",
+        "Respiratory",
+        "Circulatory"
+      ],
+      "active_medications": [
+        "glyburide",
+        "insulin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "192910836": {
+      "diagnoses": [
+        "Digestive",
+        "Circulatory"
+      ],
+      "active_medications": [
+        "glipizide",
+        "insulin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "98221074": {
+      "diagnoses": [
+        "Respiratory",
+        "Circulatory"
+      ],
+      "active_medications": [],
+      "admission_type": "NULL",
+      "admission_source": "Emergency Room"
+    },
+    "283157646": {
+      "diagnoses": [
+        "Diabetes",
+        "Injury",
+        "Other"
+      ],
+      "active_medications": [],
+      "admission_type": "Elective",
+      "admission_source": "Physician Referral"
+    },
+    "129194568": {
+      "diagnoses": [
+        "Digestive",
+        "Other"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "165684852": {
+      "diagnoses": [
+        "Diabetes",
+        "Circulatory",
+        "Other"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "215573634": {
+      "diagnoses": [
+        "Genitourinary",
+        "Other"
+      ],
+      "active_medications": [],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "21820548": {
+      "diagnoses": [
+        "Diabetes",
+        "Other"
+      ],
+      "active_medications": [],
+      "admission_type": "NULL",
+      "admission_source": "Transfer from a hospital"
+    },
+    "201063792": {
+      "diagnoses": [
+        "Circulatory"
+      ],
+      "active_medications": [
+        "glyburide",
+        "insulin"
+      ],
+      "admission_type": "Elective",
+      "admission_source": "Emergency Room"
+    },
+    "69346878": {
+      "diagnoses": [
+        "Circulatory"
+      ],
+      "active_medications": [
+        "glyburide",
+        "insulin"
+      ],
+      "admission_type": "Not Available",
+      "admission_source": "NULL"
+    },
+    "70481340": {
+      "diagnoses": [
+        "Diabetes",
+        "Respiratory"
+      ],
+      "active_medications": [],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "272987334": {
+      "diagnoses": [
+        "Digestive",
+        "Diabetes",
+        "Other"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "253988106": {
+      "diagnoses": [
+        "Neoplasm",
+        "Injury",
+        "Respiratory"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Elective",
+      "admission_source": "Physician Referral"
+    },
+    "69780924": {
+      "diagnoses": [
+        "Circulatory",
+        "Respiratory",
+        "Other"
+      ],
+      "active_medications": [],
+      "admission_type": "Urgent",
+      "admission_source": "Emergency Room"
+    },
+    "232144842": {
+      "diagnoses": [
+        "Respiratory",
+        "Circulatory"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "143655000": {
+      "diagnoses": [
+        "Circulatory",
+        "Other"
+      ],
+      "active_medications": [],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "70571880": {
+      "diagnoses": [
+        "Genitourinary",
+        "Circulatory"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "NULL"
+    },
+    "164798136": {
+      "diagnoses": [
+        "Other",
+        "Respiratory",
+        "Circulatory"
+      ],
+      "active_medications": [
+        "metformin"
+      ],
+      "admission_type": "Elective",
+      "admission_source": "Physician Referral"
+    },
+    "93072042": {
+      "diagnoses": [
+        "Genitourinary",
+        "Diabetes",
+        "Circulatory"
+      ],
+      "active_medications": [
+        "glipizide"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Transfer from another health care facility"
+    },
+    "68367930": {
+      "diagnoses": [
+        "Musculoskeletal",
+        "Other"
+      ],
+      "active_medications": [
+        "metformin"
+      ],
+      "admission_type": "Elective",
+      "admission_source": "Physician Referral"
+    },
+    "176336916": {
+      "diagnoses": [
+        "Digestive",
+        "Other"
+      ],
+      "active_medications": [
+        "metformin",
+        "insulin"
+      ],
+      "admission_type": "Elective",
+      "admission_source": "Emergency Room"
+    },
+    "64981044": {
+      "diagnoses": [
+        "Circulatory",
+        "Other"
+      ],
+      "active_medications": [
+        "glipizide"
+      ],
+      "admission_type": "Not Available",
+      "admission_source": "NULL"
+    },
+    "134934138": {
+      "diagnoses": [
+        "Circulatory",
+        "Other"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Urgent",
+      "admission_source": "Physician Referral"
+    },
+    "98446578": {
+      "diagnoses": [
+        "Digestive",
+        "Respiratory",
+        "Other"
+      ],
+      "active_medications": [],
+      "admission_type": "Elective",
+      "admission_source": "Physician Referral"
+    },
+    "90778098": {
+      "diagnoses": [
+        "Diabetes",
+        "Circulatory"
+      ],
+      "active_medications": [
+        "glipizide",
+        "insulin"
+      ],
+      "admission_type": "Urgent",
+      "admission_source": "Not Available"
+    },
+    "158217882": {
+      "diagnoses": [
+        "Genitourinary",
+        "Circulatory"
+      ],
+      "active_medications": [],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "200354850": {
+      "diagnoses": [
+        "Diabetes",
+        "Respiratory"
+      ],
+      "active_medications": [
+        "metformin",
+        "insulin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "254721300": {
+      "diagnoses": [
+        "Musculoskeletal",
+        "Other"
+      ],
+      "active_medications": [
+        "metformin"
+      ],
+      "admission_type": "Urgent",
+      "admission_source": "Physician Referral"
+    },
+    "345581018": {
+      "diagnoses": [
+        "Neoplasm",
+        "Circulatory",
+        "Other"
+      ],
+      "active_medications": [
+        "metformin"
+      ],
+      "admission_type": "Elective",
+      "admission_source": "Physician Referral"
+    },
+    "185060862": {
+      "diagnoses": [
+        "Digestive",
+        "Respiratory",
+        "Other"
+      ],
+      "active_medications": [],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "326154806": {
+      "diagnoses": [
+        "Respiratory",
+        "Circulatory"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Urgent",
+      "admission_source": "Emergency Room"
+    },
+    "66826362": {
+      "diagnoses": [
+        "Digestive",
+        "Other"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Urgent",
+      "admission_source": "Physician Referral"
+    },
+    "245560674": {
+      "diagnoses": [
+        "Digestive",
+        "Circulatory",
+        "Other"
+      ],
+      "active_medications": [],
+      "admission_type": "Urgent",
+      "admission_source": "Emergency Room"
+    },
+    "210010740": {
+      "diagnoses": [
+        "Respiratory",
+        "Circulatory"
+      ],
+      "active_medications": [],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "160816590": {
+      "diagnoses": [
+        "Genitourinary",
+        "Respiratory",
+        "Circulatory"
+      ],
+      "active_medications": [],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "179207790": {
+      "diagnoses": [
+        "Genitourinary",
+        "Circulatory"
+      ],
+      "active_medications": [],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "61866030": {
+      "diagnoses": [
+        "Injury",
+        "Circulatory"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "88114236": {
+      "diagnoses": [
+        "Respiratory",
+        "Circulatory"
+      ],
+      "active_medications": [],
+      "admission_type": "Emergency",
+      "admission_source": "Transfer from a hospital"
+    },
+    "371362052": {
+      "diagnoses": [
+        "Musculoskeletal"
+      ],
+      "active_medications": [
+        "metformin"
+      ],
+      "admission_type": "Urgent",
+      "admission_source": "Physician Referral"
+    },
+    "102594762": {
+      "diagnoses": [
+        "Genitourinary",
+        "Injury",
+        "Respiratory"
+      ],
+      "active_medications": [
+        "metformin",
+        "glyburide",
+        "insulin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "59395470": {
+      "diagnoses": [
+        "Musculoskeletal",
+        "Respiratory",
+        "Other"
+      ],
+      "active_medications": [],
+      "admission_type": "Elective",
+      "admission_source": "Physician Referral"
+    },
+    "99500148": {
+      "diagnoses": [
+        "Digestive",
+        "Circulatory"
+      ],
+      "active_medications": [
+        "metformin"
+      ],
+      "admission_type": "Emergency",
+      "admission_source": "Emergency Room"
+    },
+    "72097950": {
+      "diagnoses": [
+        "Diabetes",
+        "Respiratory"
+      ],
+      "active_medications": [
+        "insulin"
+      ],
+      "admission_type": "Urgent",
+      "admission_source": "Emergency Room"
+    },
+    "283789884": {
+      "diagnoses": [
+        "Other"
+      ],
+      "active_medications": [
+        "metformin"
+      ],
+      "admission_type": "Elective",
+      "admission_source": "Physician Referral"
+    },
+    "3413892": {
+      "diagnoses": [
+        "Circulatory"
+      ],
+      "active_medications": [
+        "glipizide"
+      ],
+      "admission_type": "NULL",
+      "admission_source": "Emergency Room"
+    }
+  },
+  "sample_encounters": 55,
+  "full_graph_rendered": false
+}

@@ -1,0 +1,1922 @@
+[
+  {
+    "scenario": "baseline",
+    "label": "Baseline graph",
+    "perturbation_type": "baseline",
+    "perturbation_level": 0.0,
+    "trial_seed": 42,
+    "derived_seed": 42,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 16524,
+    "probability_shift_mean_absolute": 0.0,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.605814889812545,
+    "pr_auc": 0.1865659017773951,
+    "accuracy": 0.5143648321218415,
+    "balanced_accuracy": 0.5688177199900529,
+    "precision": 0.1411371237458194,
+    "recall": 0.6393939393939394,
+    "f1": 0.23123287671232876,
+    "confusion_matrix": [
+      [
+        1275,
+        1284
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "baseline",
+    "label": "Baseline graph",
+    "perturbation_type": "baseline",
+    "perturbation_level": 0.0,
+    "trial_seed": 43,
+    "derived_seed": 43,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 16524,
+    "probability_shift_mean_absolute": 0.0,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.605814889812545,
+    "pr_auc": 0.1865659017773951,
+    "accuracy": 0.5143648321218415,
+    "balanced_accuracy": 0.5688177199900529,
+    "precision": 0.1411371237458194,
+    "recall": 0.6393939393939394,
+    "f1": 0.23123287671232876,
+    "confusion_matrix": [
+      [
+        1275,
+        1284
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "baseline",
+    "label": "Baseline graph",
+    "perturbation_type": "baseline",
+    "perturbation_level": 0.0,
+    "trial_seed": 44,
+    "derived_seed": 44,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 16524,
+    "probability_shift_mean_absolute": 0.0,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.605814889812545,
+    "pr_auc": 0.1865659017773951,
+    "accuracy": 0.5143648321218415,
+    "balanced_accuracy": 0.5688177199900529,
+    "precision": 0.1411371237458194,
+    "recall": 0.6393939393939394,
+    "f1": 0.23123287671232876,
+    "confusion_matrix": [
+      [
+        1275,
+        1284
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "baseline",
+    "label": "Baseline graph",
+    "perturbation_type": "baseline",
+    "perturbation_level": 0.0,
+    "trial_seed": 45,
+    "derived_seed": 45,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 16524,
+    "probability_shift_mean_absolute": 0.0,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.605814889812545,
+    "pr_auc": 0.1865659017773951,
+    "accuracy": 0.5143648321218415,
+    "balanced_accuracy": 0.5688177199900529,
+    "precision": 0.1411371237458194,
+    "recall": 0.6393939393939394,
+    "f1": 0.23123287671232876,
+    "confusion_matrix": [
+      [
+        1275,
+        1284
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "baseline",
+    "label": "Baseline graph",
+    "perturbation_type": "baseline",
+    "perturbation_level": 0.0,
+    "trial_seed": 46,
+    "derived_seed": 46,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 16524,
+    "probability_shift_mean_absolute": 0.0,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.605814889812545,
+    "pr_auc": 0.1865659017773951,
+    "accuracy": 0.5143648321218415,
+    "balanced_accuracy": 0.5688177199900529,
+    "precision": 0.1411371237458194,
+    "recall": 0.6393939393939394,
+    "f1": 0.23123287671232876,
+    "confusion_matrix": [
+      [
+        1275,
+        1284
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "baseline",
+    "label": "Baseline graph",
+    "perturbation_type": "baseline",
+    "perturbation_level": 0.0,
+    "trial_seed": 47,
+    "derived_seed": 47,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 16524,
+    "probability_shift_mean_absolute": 0.0,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.605814889812545,
+    "pr_auc": 0.1865659017773951,
+    "accuracy": 0.5143648321218415,
+    "balanced_accuracy": 0.5688177199900529,
+    "precision": 0.1411371237458194,
+    "recall": 0.6393939393939394,
+    "f1": 0.23123287671232876,
+    "confusion_matrix": [
+      [
+        1275,
+        1284
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "baseline",
+    "label": "Baseline graph",
+    "perturbation_type": "baseline",
+    "perturbation_level": 0.0,
+    "trial_seed": 48,
+    "derived_seed": 48,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 16524,
+    "probability_shift_mean_absolute": 0.0,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.605814889812545,
+    "pr_auc": 0.1865659017773951,
+    "accuracy": 0.5143648321218415,
+    "balanced_accuracy": 0.5688177199900529,
+    "precision": 0.1411371237458194,
+    "recall": 0.6393939393939394,
+    "f1": 0.23123287671232876,
+    "confusion_matrix": [
+      [
+        1275,
+        1284
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "baseline",
+    "label": "Baseline graph",
+    "perturbation_type": "baseline",
+    "perturbation_level": 0.0,
+    "trial_seed": 49,
+    "derived_seed": 49,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 16524,
+    "probability_shift_mean_absolute": 0.0,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.605814889812545,
+    "pr_auc": 0.1865659017773951,
+    "accuracy": 0.5143648321218415,
+    "balanced_accuracy": 0.5688177199900529,
+    "precision": 0.1411371237458194,
+    "recall": 0.6393939393939394,
+    "f1": 0.23123287671232876,
+    "confusion_matrix": [
+      [
+        1275,
+        1284
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "baseline",
+    "label": "Baseline graph",
+    "perturbation_type": "baseline",
+    "perturbation_level": 0.0,
+    "trial_seed": 50,
+    "derived_seed": 50,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 16524,
+    "probability_shift_mean_absolute": 0.0,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.605814889812545,
+    "pr_auc": 0.1865659017773951,
+    "accuracy": 0.5143648321218415,
+    "balanced_accuracy": 0.5688177199900529,
+    "precision": 0.1411371237458194,
+    "recall": 0.6393939393939394,
+    "f1": 0.23123287671232876,
+    "confusion_matrix": [
+      [
+        1275,
+        1284
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "baseline",
+    "label": "Baseline graph",
+    "perturbation_type": "baseline",
+    "perturbation_level": 0.0,
+    "trial_seed": 51,
+    "derived_seed": 51,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 16524,
+    "probability_shift_mean_absolute": 0.0,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.605814889812545,
+    "pr_auc": 0.1865659017773951,
+    "accuracy": 0.5143648321218415,
+    "balanced_accuracy": 0.5688177199900529,
+    "precision": 0.1411371237458194,
+    "recall": 0.6393939393939394,
+    "f1": 0.23123287671232876,
+    "confusion_matrix": [
+      [
+        1275,
+        1284
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_5",
+    "label": "Remove 5% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.05,
+    "trial_seed": 42,
+    "derived_seed": 10042,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 15698,
+    "probability_shift_mean_absolute": 0.006495778448879719,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6054951626463936,
+    "pr_auc": 0.18999550004961893,
+    "accuracy": 0.5136725510557286,
+    "balanced_accuracy": 0.560508366194181,
+    "precision": 0.13804713804713806,
+    "recall": 0.6212121212121212,
+    "f1": 0.22589531680440772,
+    "confusion_matrix": [
+      [
+        1279,
+        1280
+      ],
+      [
+        125,
+        205
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_5",
+    "label": "Remove 5% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.05,
+    "trial_seed": 43,
+    "derived_seed": 10043,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 15698,
+    "probability_shift_mean_absolute": 0.006313457153737545,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6069363032434545,
+    "pr_auc": 0.18586385892815332,
+    "accuracy": 0.5150571131879543,
+    "balanced_accuracy": 0.5652492095633947,
+    "precision": 0.1398789509078682,
+    "recall": 0.6303030303030303,
+    "f1": 0.22894881673087508,
+    "confusion_matrix": [
+      [
+        1280,
+        1279
+      ],
+      [
+        122,
+        208
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_5",
+    "label": "Remove 5% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.05,
+    "trial_seed": 44,
+    "derived_seed": 10044,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 15698,
+    "probability_shift_mean_absolute": 0.0071203880943357944,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6075976648075124,
+    "pr_auc": 0.18865735894040495,
+    "accuracy": 0.5174800969193493,
+    "balanced_accuracy": 0.5718959820952787,
+    "precision": 0.1424731182795699,
+    "recall": 0.6424242424242425,
+    "f1": 0.23322332233223322,
+    "confusion_matrix": [
+      [
+        1283,
+        1276
+      ],
+      [
+        118,
+        212
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_5",
+    "label": "Remove 5% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.05,
+    "trial_seed": 45,
+    "derived_seed": 10045,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 15698,
+    "probability_shift_mean_absolute": 0.006795317400246859,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6042340166021292,
+    "pr_auc": 0.18510241254765114,
+    "accuracy": 0.5254413291796469,
+    "balanced_accuracy": 0.5750701623503499,
+    "precision": 0.1442241968557758,
+    "recall": 0.6393939393939394,
+    "f1": 0.23535973229224763,
+    "confusion_matrix": [
+      [
+        1307,
+        1252
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_5",
+    "label": "Remove 5% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.05,
+    "trial_seed": 46,
+    "derived_seed": 10046,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 15698,
+    "probability_shift_mean_absolute": 0.0063536218367516994,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6067557166033133,
+    "pr_auc": 0.1837807887381473,
+    "accuracy": 0.5160955347871236,
+    "balanced_accuracy": 0.5750737148744183,
+    "precision": 0.14352469959946595,
+    "recall": 0.6515151515151515,
+    "f1": 0.23522975929978118,
+    "confusion_matrix": [
+      [
+        1276,
+        1283
+      ],
+      [
+        115,
+        215
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_5",
+    "label": "Remove 5% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.05,
+    "trial_seed": 47,
+    "derived_seed": 10047,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 15698,
+    "probability_shift_mean_absolute": 0.006564657669514418,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6089872938055823,
+    "pr_auc": 0.18748920494070748,
+    "accuracy": 0.5216337833160263,
+    "balanced_accuracy": 0.5755604106717823,
+    "precision": 0.14411366711772666,
+    "recall": 0.6454545454545455,
+    "f1": 0.23561946902654868,
+    "confusion_matrix": [
+      [
+        1294,
+        1265
+      ],
+      [
+        117,
+        213
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_5",
+    "label": "Remove 5% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.05,
+    "trial_seed": 48,
+    "derived_seed": 10048,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 15698,
+    "probability_shift_mean_absolute": 0.006371438503265381,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6082442241879522,
+    "pr_auc": 0.19145258255403116,
+    "accuracy": 0.5199030806507442,
+    "balanced_accuracy": 0.5706241784788092,
+    "precision": 0.14218009478672985,
+    "recall": 0.6363636363636364,
+    "f1": 0.23242944106253458,
+    "confusion_matrix": [
+      [
+        1292,
+        1267
+      ],
+      [
+        120,
+        210
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_5",
+    "label": "Remove 5% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.05,
+    "trial_seed": 49,
+    "derived_seed": 10049,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 15698,
+    "probability_shift_mean_absolute": 0.006639423314481974,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6057000248676685,
+    "pr_auc": 0.18853638272251488,
+    "accuracy": 0.5199030806507442,
+    "balanced_accuracy": 0.5679846530960246,
+    "precision": 0.14120841819416158,
+    "recall": 0.6303030303030303,
+    "f1": 0.230726566833056,
+    "confusion_matrix": [
+      [
+        1294,
+        1265
+      ],
+      [
+        122,
+        208
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_5",
+    "label": "Remove 5% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.05,
+    "trial_seed": 50,
+    "derived_seed": 10050,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 15698,
+    "probability_shift_mean_absolute": 0.006524296943098307,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6085059267943207,
+    "pr_auc": 0.18748034877718417,
+    "accuracy": 0.5115957078573901,
+    "balanced_accuracy": 0.5738534228569399,
+    "precision": 0.1427627230667548,
+    "recall": 0.6545454545454545,
+    "f1": 0.23440043407487793,
+    "confusion_matrix": [
+      [
+        1262,
+        1297
+      ],
+      [
+        114,
+        216
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_5",
+    "label": "Remove 5% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.05,
+    "trial_seed": 51,
+    "derived_seed": 10051,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 15698,
+    "probability_shift_mean_absolute": 0.00652345921844244,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6078238421731974,
+    "pr_auc": 0.1893011026087773,
+    "accuracy": 0.518864659051575,
+    "balanced_accuracy": 0.5687182493161391,
+    "precision": 0.14140730717185385,
+    "recall": 0.6333333333333333,
+    "f1": 0.23119469026548672,
+    "confusion_matrix": [
+      [
+        1290,
+        1269
+      ],
+      [
+        121,
+        209
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_10",
+    "label": "Remove 10% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.1,
+    "trial_seed": 42,
+    "derived_seed": 20042,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 14872,
+    "probability_shift_mean_absolute": 0.010838241316378117,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6047118310893222,
+    "pr_auc": 0.19081269642996598,
+    "accuracy": 0.518864659051575,
+    "balanced_accuracy": 0.5607996731677857,
+    "precision": 0.13847203274215553,
+    "recall": 0.6151515151515151,
+    "f1": 0.22605790645879734,
+    "confusion_matrix": [
+      [
+        1296,
+        1263
+      ],
+      [
+        127,
+        203
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_10",
+    "label": "Remove 10% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.1,
+    "trial_seed": 43,
+    "derived_seed": 20043,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 14872,
+    "probability_shift_mean_absolute": 0.010022533126175404,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6072566224969508,
+    "pr_auc": 0.18834490924524316,
+    "accuracy": 0.5154032537210107,
+    "balanced_accuracy": 0.5628050730043697,
+    "precision": 0.13900134952766532,
+    "recall": 0.6242424242424243,
+    "f1": 0.22737306843267108,
+    "confusion_matrix": [
+      [
+        1283,
+        1276
+      ],
+      [
+        124,
+        206
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_10",
+    "label": "Remove 10% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.1,
+    "trial_seed": 44,
+    "derived_seed": 20044,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 14872,
+    "probability_shift_mean_absolute": 0.010542207397520542,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6080115338614752,
+    "pr_auc": 0.18984310938207924,
+    "accuracy": 0.5216337833160263,
+    "balanced_accuracy": 0.579519698745959,
+    "precision": 0.14555256064690028,
+    "recall": 0.6545454545454545,
+    "f1": 0.23814773980154355,
+    "confusion_matrix": [
+      [
+        1291,
+        1268
+      ],
+      [
+        114,
+        216
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_10",
+    "label": "Remove 10% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.1,
+    "trial_seed": 45,
+    "derived_seed": 20045,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 14872,
+    "probability_shift_mean_absolute": 0.009962495416402817,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.608819733087025,
+    "pr_auc": 0.19023328344901264,
+    "accuracy": 0.520595361716857,
+    "balanced_accuracy": 0.5630963799779743,
+    "precision": 0.1394395078605605,
+    "recall": 0.6181818181818182,
+    "f1": 0.2275515895147797,
+    "confusion_matrix": [
+      [
+        1300,
+        1259
+      ],
+      [
+        126,
+        204
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_10",
+    "label": "Remove 10% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.1,
+    "trial_seed": 46,
+    "derived_seed": 20046,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 14872,
+    "probability_shift_mean_absolute": 0.010512816719710827,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6024530178691961,
+    "pr_auc": 0.18995290786198882,
+    "accuracy": 0.5160955347871236,
+    "balanced_accuracy": 0.5711144268002416,
+    "precision": 0.14209115281501342,
+    "recall": 0.6424242424242425,
+    "f1": 0.2327113062568606,
+    "confusion_matrix": [
+      [
+        1279,
+        1280
+      ],
+      [
+        118,
+        212
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_10",
+    "label": "Remove 10% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.1,
+    "trial_seed": 47,
+    "derived_seed": 20047,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 14872,
+    "probability_shift_mean_absolute": 0.010787909850478172,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6104562625078451,
+    "pr_auc": 0.19047938092540073,
+    "accuracy": 0.5223260643821391,
+    "balanced_accuracy": 0.5733116629365165,
+    "precision": 0.14334239130434784,
+    "recall": 0.6393939393939394,
+    "f1": 0.2341842397336293,
+    "confusion_matrix": [
+      [
+        1298,
+        1261
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_10",
+    "label": "Remove 10% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.1,
+    "trial_seed": 48,
+    "derived_seed": 20048,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 14872,
+    "probability_shift_mean_absolute": 0.010505647398531437,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6137583336293772,
+    "pr_auc": 0.1938633940745915,
+    "accuracy": 0.5250951886465905,
+    "balanced_accuracy": 0.5788340616007673,
+    "precision": 0.145578231292517,
+    "recall": 0.6484848484848484,
+    "f1": 0.23777777777777778,
+    "confusion_matrix": [
+      [
+        1303,
+        1256
+      ],
+      [
+        116,
+        214
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_10",
+    "label": "Remove 10% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.1,
+    "trial_seed": 49,
+    "derived_seed": 20049,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 14872,
+    "probability_shift_mean_absolute": 0.010503163561224937,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6067569007780028,
+    "pr_auc": 0.18492244532182872,
+    "accuracy": 0.5157493942540672,
+    "balanced_accuracy": 0.5722388006678746,
+    "precision": 0.14247491638795987,
+    "recall": 0.6454545454545455,
+    "f1": 0.23342465753424657,
+    "confusion_matrix": [
+      [
+        1277,
+        1282
+      ],
+      [
+        117,
+        213
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_10",
+    "label": "Remove 10% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.1,
+    "trial_seed": 50,
+    "derived_seed": 20050,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 14872,
+    "probability_shift_mean_absolute": 0.010850279591977596,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6105101424562152,
+    "pr_auc": 0.19286784200399498,
+    "accuracy": 0.5212876427829699,
+    "balanced_accuracy": 0.5727254964652386,
+    "precision": 0.1430508474576271,
+    "recall": 0.6393939393939394,
+    "f1": 0.2337950138504155,
+    "confusion_matrix": [
+      [
+        1295,
+        1264
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_10",
+    "label": "Remove 10% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.1,
+    "trial_seed": 51,
+    "derived_seed": 20051,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 14872,
+    "probability_shift_mean_absolute": 0.010030070319771767,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6100944971402182,
+    "pr_auc": 0.19042798391689658,
+    "accuracy": 0.5157493942540672,
+    "balanced_accuracy": 0.5682795125936978,
+    "precision": 0.14103425117528542,
+    "recall": 0.6363636363636364,
+    "f1": 0.23089609675645958,
+    "confusion_matrix": [
+      [
+        1280,
+        1279
+      ],
+      [
+        120,
+        210
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_20",
+    "label": "Remove 20% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.2,
+    "trial_seed": 42,
+    "derived_seed": 30042,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 13219,
+    "probability_shift_mean_absolute": 0.016451407223939896,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6061452745509017,
+    "pr_auc": 0.1878903552340349,
+    "accuracy": 0.5233644859813084,
+    "balanced_accuracy": 0.5672990159508331,
+    "precision": 0.14119259766963674,
+    "recall": 0.6242424242424243,
+    "f1": 0.23029625489100056,
+    "confusion_matrix": [
+      [
+        1306,
+        1253
+      ],
+      [
+        124,
+        206
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_20",
+    "label": "Remove 20% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.2,
+    "trial_seed": 43,
+    "derived_seed": 30043,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 13219,
+    "probability_shift_mean_absolute": 0.016508977860212326,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6087776948855494,
+    "pr_auc": 0.19141270253452627,
+    "accuracy": 0.5219799238490828,
+    "balanced_accuracy": 0.5704767487299727,
+    "precision": 0.14227365554799182,
+    "recall": 0.6333333333333333,
+    "f1": 0.23235130628126738,
+    "confusion_matrix": [
+      [
+        1299,
+        1260
+      ],
+      [
+        121,
+        209
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_20",
+    "label": "Remove 20% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.2,
+    "trial_seed": 44,
+    "derived_seed": 30044,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 13219,
+    "probability_shift_mean_absolute": 0.01652020402252674,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6057254846234916,
+    "pr_auc": 0.1915217703861526,
+    "accuracy": 0.5275181723779855,
+    "balanced_accuracy": 0.5683239191445522,
+    "precision": 0.14186851211072665,
+    "recall": 0.6212121212121212,
+    "f1": 0.23098591549295774,
+    "confusion_matrix": [
+      [
+        1319,
+        1240
+      ],
+      [
+        125,
+        205
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_20",
+    "label": "Remove 20% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.2,
+    "trial_seed": 45,
+    "derived_seed": 30045,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 13219,
+    "probability_shift_mean_absolute": 0.017091188579797745,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6131301289566237,
+    "pr_auc": 0.19171589754673202,
+    "accuracy": 0.5282104534440983,
+    "balanced_accuracy": 0.5792727983232087,
+    "precision": 0.14599040438656613,
+    "recall": 0.6454545454545455,
+    "f1": 0.23812185578535494,
+    "confusion_matrix": [
+      [
+        1313,
+        1246
+      ],
+      [
+        117,
+        213
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_20",
+    "label": "Remove 20% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.2,
+    "trial_seed": 46,
+    "derived_seed": 30046,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 13219,
+    "probability_shift_mean_absolute": 0.015559549443423748,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6066106552038557,
+    "pr_auc": 0.18967430179310932,
+    "accuracy": 0.5160955347871236,
+    "balanced_accuracy": 0.5618760879604959,
+    "precision": 0.13870094722598106,
+    "recall": 0.6212121212121212,
+    "f1": 0.22676991150442477,
+    "confusion_matrix": [
+      [
+        1286,
+        1273
+      ],
+      [
+        125,
+        205
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_20",
+    "label": "Remove 20% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.2,
+    "trial_seed": 47,
+    "derived_seed": 30047,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 13219,
+    "probability_shift_mean_absolute": 0.017109692096710205,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6042186223311663,
+    "pr_auc": 0.18804953485957127,
+    "accuracy": 0.5250951886465905,
+    "balanced_accuracy": 0.5709154854524139,
+    "precision": 0.14266117969821673,
+    "recall": 0.6303030303030303,
+    "f1": 0.232662192393736,
+    "confusion_matrix": [
+      [
+        1309,
+        1250
+      ],
+      [
+        122,
+        208
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_20",
+    "label": "Remove 20% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.2,
+    "trial_seed": 48,
+    "derived_seed": 30048,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 13219,
+    "probability_shift_mean_absolute": 0.016523050144314766,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6062429689627815,
+    "pr_auc": 0.19281914869397662,
+    "accuracy": 0.5209415022499134,
+    "balanced_accuracy": 0.565931294184518,
+    "precision": 0.14051841746248295,
+    "recall": 0.6242424242424243,
+    "f1": 0.22939866369710468,
+    "confusion_matrix": [
+      [
+        1299,
+        1260
+      ],
+      [
+        124,
+        206
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_20",
+    "label": "Remove 20% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.2,
+    "trial_seed": 49,
+    "derived_seed": 30049,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 13219,
+    "probability_shift_mean_absolute": 0.016321644186973572,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6053418120241099,
+    "pr_auc": 0.18539311142538253,
+    "accuracy": 0.5216337833160263,
+    "balanced_accuracy": 0.5650023091406444,
+    "precision": 0.140218878248974,
+    "recall": 0.6212121212121212,
+    "f1": 0.22879464285714285,
+    "confusion_matrix": [
+      [
+        1302,
+        1257
+      ],
+      [
+        125,
+        205
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_20",
+    "label": "Remove 20% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.2,
+    "trial_seed": 50,
+    "derived_seed": 30050,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 13219,
+    "probability_shift_mean_absolute": 0.017008157446980476,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6106019159946475,
+    "pr_auc": 0.18949628470907418,
+    "accuracy": 0.5275181723779855,
+    "balanced_accuracy": 0.5722832072187289,
+    "precision": 0.14334941419710545,
+    "recall": 0.6303030303030303,
+    "f1": 0.23357664233576642,
+    "confusion_matrix": [
+      [
+        1316,
+        1243
+      ],
+      [
+        122,
+        208
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "remove_20",
+    "label": "Remove 20% edges",
+    "perturbation_type": "edge_removal",
+    "perturbation_level": 0.2,
+    "trial_seed": 51,
+    "derived_seed": 30051,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 13219,
+    "probability_shift_mean_absolute": 0.016616296023130417,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6054164150295451,
+    "pr_auc": 0.19333825226328846,
+    "accuracy": 0.523018345448252,
+    "balanced_accuracy": 0.5750222032754272,
+    "precision": 0.14402173913043478,
+    "recall": 0.6424242424242425,
+    "f1": 0.23529411764705882,
+    "confusion_matrix": [
+      [
+        1299,
+        1260
+      ],
+      [
+        118,
+        212
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_5",
+    "label": "Add 5% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.05,
+    "trial_seed": 42,
+    "derived_seed": 40042,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 17350,
+    "probability_shift_mean_absolute": 0.009015997871756554,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6043938801852049,
+    "pr_auc": 0.18794027164661758,
+    "accuracy": 0.5219799238490828,
+    "balanced_accuracy": 0.5691569860385803,
+    "precision": 0.141785957736878,
+    "recall": 0.6303030303030303,
+    "f1": 0.23149693934335003,
+    "confusion_matrix": [
+      [
+        1300,
+        1259
+      ],
+      [
+        122,
+        208
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_5",
+    "label": "Add 5% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.05,
+    "trial_seed": 43,
+    "derived_seed": 40043,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 17350,
+    "probability_shift_mean_absolute": 0.008324422873556614,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6057231162741128,
+    "pr_auc": 0.18395002280197525,
+    "accuracy": 0.5150571131879543,
+    "balanced_accuracy": 0.5652492095633947,
+    "precision": 0.1398789509078682,
+    "recall": 0.6303030303030303,
+    "f1": 0.22894881673087508,
+    "confusion_matrix": [
+      [
+        1280,
+        1279
+      ],
+      [
+        122,
+        208
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_5",
+    "label": "Add 5% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.05,
+    "trial_seed": 44,
+    "derived_seed": 40044,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 17350,
+    "probability_shift_mean_absolute": 0.00908469408750534,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.605313391831563,
+    "pr_auc": 0.18740528273036772,
+    "accuracy": 0.520595361716857,
+    "balanced_accuracy": 0.5683754307435432,
+    "precision": 0.14140040788579197,
+    "recall": 0.6303030303030303,
+    "f1": 0.23098278734036645,
+    "confusion_matrix": [
+      [
+        1296,
+        1263
+      ],
+      [
+        122,
+        208
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_5",
+    "label": "Add 5% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.05,
+    "trial_seed": 45,
+    "derived_seed": 40045,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 17350,
+    "probability_shift_mean_absolute": 0.009390663355588913,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6110258505334707,
+    "pr_auc": 0.18958969637144654,
+    "accuracy": 0.5240567670474212,
+    "balanced_accuracy": 0.5795676578208817,
+    "precision": 0.14576271186440679,
+    "recall": 0.6515151515151515,
+    "f1": 0.23822714681440443,
+    "confusion_matrix": [
+      [
+        1299,
+        1260
+      ],
+      [
+        115,
+        215
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_5",
+    "label": "Add 5% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.05,
+    "trial_seed": 46,
+    "derived_seed": 40046,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 17350,
+    "probability_shift_mean_absolute": 0.00893473532050848,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6013014079837058,
+    "pr_auc": 0.18151848648651808,
+    "accuracy": 0.5185185185185185,
+    "balanced_accuracy": 0.5685228604923798,
+    "precision": 0.14131169709263017,
+    "recall": 0.6333333333333333,
+    "f1": 0.2310668877833057,
+    "confusion_matrix": [
+      [
+        1289,
+        1270
+      ],
+      [
+        121,
+        209
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_5",
+    "label": "Add 5% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.05,
+    "trial_seed": 47,
+    "derived_seed": 40047,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 17350,
+    "probability_shift_mean_absolute": 0.008431877009570599,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6046840029841202,
+    "pr_auc": 0.18953899577558506,
+    "accuracy": 0.5154032537210107,
+    "balanced_accuracy": 0.5667643610785462,
+    "precision": 0.14045698924731181,
+    "recall": 0.6333333333333333,
+    "f1": 0.2299229922992299,
+    "confusion_matrix": [
+      [
+        1280,
+        1279
+      ],
+      [
+        121,
+        209
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_5",
+    "label": "Add 5% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.05,
+    "trial_seed": 48,
+    "derived_seed": 40048,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 17350,
+    "probability_shift_mean_absolute": 0.008624251000583172,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6092555093727426,
+    "pr_auc": 0.18907989002464515,
+    "accuracy": 0.520595361716857,
+    "balanced_accuracy": 0.5749742442005045,
+    "precision": 0.14382174206617152,
+    "recall": 0.6454545454545455,
+    "f1": 0.23522915516289342,
+    "confusion_matrix": [
+      [
+        1291,
+        1268
+      ],
+      [
+        117,
+        213
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_5",
+    "label": "Add 5% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.05,
+    "trial_seed": 49,
+    "derived_seed": 40049,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 17350,
+    "probability_shift_mean_absolute": 0.008588993921875954,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6082602105462598,
+    "pr_auc": 0.18624591416776962,
+    "accuracy": 0.5264797507788161,
+    "balanced_accuracy": 0.5756563288216278,
+    "precision": 0.14452054794520547,
+    "recall": 0.6393939393939394,
+    "f1": 0.23575418994413408,
+    "confusion_matrix": [
+      [
+        1310,
+        1249
+      ],
+      [
+        119,
+        211
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_5",
+    "label": "Add 5% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.05,
+    "trial_seed": 50,
+    "derived_seed": 40050,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 17350,
+    "probability_shift_mean_absolute": 0.00907064788043499,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6016915935438796,
+    "pr_auc": 0.1867720444268417,
+    "accuracy": 0.5122879889235029,
+    "balanced_accuracy": 0.5610465735905361,
+    "precision": 0.1381623071763917,
+    "recall": 0.6242424242424243,
+    "f1": 0.22624931356397585,
+    "confusion_matrix": [
+      [
+        1274,
+        1285
+      ],
+      [
+        124,
+        206
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_5",
+    "label": "Add 5% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.05,
+    "trial_seed": 51,
+    "derived_seed": 40051,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 17350,
+    "probability_shift_mean_absolute": 0.008166063576936722,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6031528651106611,
+    "pr_auc": 0.18398532022951947,
+    "accuracy": 0.523018345448252,
+    "balanced_accuracy": 0.5697431525098582,
+    "precision": 0.14207650273224043,
+    "recall": 0.6303030303030303,
+    "f1": 0.2318840579710145,
+    "confusion_matrix": [
+      [
+        1303,
+        1256
+      ],
+      [
+        122,
+        208
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_10",
+    "label": "Add 10% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.1,
+    "trial_seed": 42,
+    "derived_seed": 50042,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 18176,
+    "probability_shift_mean_absolute": 0.013420316390693188,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.604051061612609,
+    "pr_auc": 0.18359886098460804,
+    "accuracy": 0.5313257182416061,
+    "balanced_accuracy": 0.5731127215886889,
+    "precision": 0.14394993045897078,
+    "recall": 0.6272727272727273,
+    "f1": 0.2341628959276018,
+    "confusion_matrix": [
+      [
+        1328,
+        1231
+      ],
+      [
+        123,
+        207
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_10",
+    "label": "Add 10% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.1,
+    "trial_seed": 43,
+    "derived_seed": 50043,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 18176,
+    "probability_shift_mean_absolute": 0.01379332598298788,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6057621940388647,
+    "pr_auc": 0.1829522475778389,
+    "accuracy": 0.5295950155763239,
+    "balanced_accuracy": 0.5760950655440691,
+    "precision": 0.14492753623188406,
+    "recall": 0.6363636363636364,
+    "f1": 0.23608768971332209,
+    "confusion_matrix": [
+      [
+        1320,
+        1239
+      ],
+      [
+        120,
+        210
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_10",
+    "label": "Add 10% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.1,
+    "trial_seed": 44,
+    "derived_seed": 50044,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 18176,
+    "probability_shift_mean_absolute": 0.014024561271071434,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6067426906817295,
+    "pr_auc": 0.1881338305083256,
+    "accuracy": 0.5289027345102112,
+    "balanced_accuracy": 0.5836228640449039,
+    "precision": 0.14764183185235816,
+    "recall": 0.6545454545454545,
+    "f1": 0.24093697713329615,
+    "confusion_matrix": [
+      [
+        1312,
+        1247
+      ],
+      [
+        114,
+        216
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_10",
+    "label": "Add 10% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.1,
+    "trial_seed": 45,
+    "derived_seed": 50045,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 18176,
+    "probability_shift_mean_absolute": 0.013592623174190521,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6090826198680829,
+    "pr_auc": 0.19011160833984314,
+    "accuracy": 0.5250951886465905,
+    "balanced_accuracy": 0.5735550108351983,
+    "precision": 0.1436388508891929,
+    "recall": 0.6363636363636364,
+    "f1": 0.234375,
+    "confusion_matrix": [
+      [
+        1307,
+        1252
+      ],
+      [
+        120,
+        210
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_10",
+    "label": "Add 10% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.1,
+    "trial_seed": 46,
+    "derived_seed": 50046,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 18176,
+    "probability_shift_mean_absolute": 0.012898116372525692,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6105036294954231,
+    "pr_auc": 0.1901750618798838,
+    "accuracy": 0.5306334371754933,
+    "balanced_accuracy": 0.5727219439411702,
+    "precision": 0.14375,
+    "recall": 0.6272727272727273,
+    "f1": 0.23389830508474577,
+    "confusion_matrix": [
+      [
+        1326,
+        1233
+      ],
+      [
+        123,
+        207
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_10",
+    "label": "Add 10% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.1,
+    "trial_seed": 47,
+    "derived_seed": 50047,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 18176,
+    "probability_shift_mean_absolute": 0.014331619255244732,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6066580221914337,
+    "pr_auc": 0.18854432880755978,
+    "accuracy": 0.5316718587746625,
+    "balanced_accuracy": 0.5719883477210559,
+    "precision": 0.14355400696864112,
+    "recall": 0.6242424242424243,
+    "f1": 0.23342776203966006,
+    "confusion_matrix": [
+      [
+        1330,
+        1229
+      ],
+      [
+        124,
+        206
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_10",
+    "label": "Add 10% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.1,
+    "trial_seed": 48,
+    "derived_seed": 50048,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 18176,
+    "probability_shift_mean_absolute": 0.014581019058823586,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6087285516359373,
+    "pr_auc": 0.19066112526104728,
+    "accuracy": 0.527172031844929,
+    "balanced_accuracy": 0.5773668691605386,
+    "precision": 0.14520547945205478,
+    "recall": 0.6424242424242425,
+    "f1": 0.23687150837988827,
+    "confusion_matrix": [
+      [
+        1311,
+        1248
+      ],
+      [
+        118,
+        212
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_10",
+    "label": "Add 10% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.1,
+    "trial_seed": 49,
+    "derived_seed": 50049,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 18176,
+    "probability_shift_mean_absolute": 0.014162353239953518,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6043701966914159,
+    "pr_auc": 0.1839226825285271,
+    "accuracy": 0.5244029075804777,
+    "balanced_accuracy": 0.5692049451135032,
+    "precision": 0.1419753086419753,
+    "recall": 0.6272727272727273,
+    "f1": 0.23154362416107382,
+    "confusion_matrix": [
+      [
+        1308,
+        1251
+      ],
+      [
+        123,
+        207
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_10",
+    "label": "Add 10% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.1,
+    "trial_seed": 50,
+    "derived_seed": 50050,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 18176,
+    "probability_shift_mean_absolute": 0.014294796623289585,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6070251163451632,
+    "pr_auc": 0.19074254529420695,
+    "accuracy": 0.5147109726548978,
+    "balanced_accuracy": 0.5650538207396355,
+    "precision": 0.13978494623655913,
+    "recall": 0.6303030303030303,
+    "f1": 0.22882288228822883,
+    "confusion_matrix": [
+      [
+        1279,
+        1280
+      ],
+      [
+        122,
+        208
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  },
+  {
+    "scenario": "noise_10",
+    "label": "Add 10% noise edges",
+    "perturbation_type": "noise_addition",
+    "perturbation_level": 0.1,
+    "trial_seed": 51,
+    "derived_seed": 50051,
+    "node_count": 2889,
+    "edge_count_before": 16524,
+    "edge_count_after": 18176,
+    "probability_shift_mean_absolute": 0.014721356332302094,
+    "threshold": 0.4798469841480255,
+    "roc_auc": 0.6110169692232998,
+    "pr_auc": 0.19059753564415766,
+    "accuracy": 0.5313257182416061,
+    "balanced_accuracy": 0.5876301111940034,
+    "precision": 0.14931506849315068,
+    "recall": 0.6606060606060606,
+    "f1": 0.2435754189944134,
+    "confusion_matrix": [
+      [
+        1317,
+        1242
+      ],
+      [
+        112,
+        218
+      ]
+    ],
+    "support": 2889,
+    "positive_support": 330
+  }
+]

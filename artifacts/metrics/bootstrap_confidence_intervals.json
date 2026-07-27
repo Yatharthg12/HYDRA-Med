@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "method": "patient-clustered paired percentile bootstrap",
+    "master_seed": 42042,
+    "requested_replicates": 1000,
+    "valid_replicates": 1000,
+    "invalid_single_class_replicates": 0,
+    "unique_test_patients": 2654,
+    "test_encounters": 2889,
+    "paired_resampling": true,
+    "resample_index_sha256": "47138ab3670bc82fa0c22d45d77f25d75e9f9b5d2a7397f6693046c9132784c5",
+    "confidence_level": 0.95
+  },
+  "models": {
+    "logistic_regression": {
+      "name": "Logistic Regression",
+      "threshold": 0.5338888332109268,
+      "intervals": {
+        "pr_auc": {
+          "estimate": 0.24474592079740273,
+          "bootstrap_mean": 0.24533108446769353,
+          "ci_95_lower": 0.2022195791440293,
+          "ci_95_upper": 0.2894137149834075
+        },
+        "roc_auc": {
+          "estimate": 0.6754520586876976,
+          "bootstrap_mean": 0.674805078861792,
+          "ci_95_lower": 0.6409177499011013,
+          "ci_95_upper": 0.7074128750992422
+        },
+        "accuracy": {
+          "estimate": 0.7217030114226376,
+          "bootstrap_mean": 0.7218219869575753,
+          "ci_95_lower": 0.7054365607036008,
+          "ci_95_upper": 0.7380467685076381
+        },
+        "balanced_accuracy": {
+          "estimate": 0.6264663043092117,
+          "bootstrap_mean": 0.6262949805973068,
+          "ci_95_lower": 0.5975218971054376,
+          "ci_95_upper": 0.6551979624108313
+        },
+        "precision": {
+          "estimate": 0.20595533498759305,
+          "bootstrap_mean": 0.20560900402047516,
+          "ci_95_lower": 0.17698920731504203,
+          "ci_95_upper": 0.2352272089542932
+        },
+        "recall": {
+          "estimate": 0.503030303030303,
+          "bootstrap_mean": 0.5025487806209078,
+          "ci_95_lower": 0.4479029605263158,
+          "ci_95_upper": 0.5590080011455778
+        },
+        "f1": {
+          "estimate": 0.29225352112676056,
+          "bootstrap_mean": 0.29163632177526644,
+          "ci_95_lower": 0.25538692075068586,
+          "ci_95_upper": 0.3275745666436102
+        }
+      }
+    },
+    "pca_knn": {
+      "name": "PCA + k-Nearest Neighbours",
+      "threshold": 0.12649392297772555,
+      "intervals": {
+        "pr_auc": {
+          "estimate": 0.16803523969051393,
+          "bootstrap_mean": 0.1709242588654414,
+          "ci_95_lower": 0.1397814634727971,
+          "ci_95_upper": 0.20551224492511158
+        },
+        "roc_auc": {
+          "estimate": 0.5913442751074638,
+          "bootstrap_mean": 0.5914622362400348,
+          "ci_95_lower": 0.555615038858916,
+          "ci_95_upper": 0.6251944076882131
+        },
+        "accuracy": {
+          "estimate": 0.6033229491173416,
+          "bootstrap_mean": 0.6036267058372391,
+          "ci_95_lower": 0.5859329805752207,
+          "ci_95_upper": 0.6197049667868563
+        },
+        "balanced_accuracy": {
+          "estimate": 0.5754804788802445,
+          "bootstrap_mean": 0.5757819977359463,
+          "ci_95_lower": 0.5469347947544161,
+          "ci_95_upper": 0.6054167053568763
+        },
+        "precision": {
+          "estimate": 0.15187713310580206,
+          "bootstrap_mean": 0.1518273590585423,
+          "ci_95_lower": 0.13136091567783262,
+          "ci_95_upper": 0.17277925767067365
+        },
+        "recall": {
+          "estimate": 0.5393939393939394,
+          "bootstrap_mean": 0.5397093745870183,
+          "ci_95_lower": 0.48692595459236326,
+          "ci_95_upper": 0.5932226995892544
+        },
+        "f1": {
+          "estimate": 0.237017310252996,
+          "bootstrap_mean": 0.23685918735744144,
+          "ci_95_lower": 0.20768428349721338,
+          "ci_95_upper": 0.2649845390516315
+        }
+      }
+    },
+    "gcn": {
+      "name": "Graph Convolutional Network",
+      "threshold": 0.4798469841480255,
+      "intervals": {
+        "pr_auc": {
+          "estimate": 0.1865659017773951,
+          "bootstrap_mean": 0.18839898109447956,
+          "ci_95_lower": 0.15197720080253335,
+          "ci_95_upper": 0.2264525798537676
+        },
+        "roc_auc": {
+          "estimate": 0.605814889812545,
+          "bootstrap_mean": 0.606249422095414,
+          "ci_95_lower": 0.5734633440696083,
+          "ci_95_upper": 0.6392497043845381
+        },
+        "accuracy": {
+          "estimate": 0.5143648321218415,
+          "bootstrap_mean": 0.514870099485061,
+          "ci_95_lower": 0.49724441170376854,
+          "ci_95_upper": 0.5316751613668184
+        },
+        "balanced_accuracy": {
+          "estimate": 0.5688177199900529,
+          "bootstrap_mean": 0.5695154940661328,
+          "ci_95_lower": 0.5423443538779869,
+          "ci_95_upper": 0.5973821860490319
+        },
+        "precision": {
+          "estimate": 0.1411371237458194,
+          "bootstrap_mean": 0.14122272546734024,
+          "ci_95_lower": 0.12346146527029561,
+          "ci_95_upper": 0.1595262626494901
+        },
+        "recall": {
+          "estimate": 0.6393939393939394,
+          "bootstrap_mean": 0.6403298985798369,
+          "ci_95_lower": 0.586313555665811,
+          "ci_95_upper": 0.6918419664830657
+        },
+        "f1": {
+          "estimate": 0.23123287671232876,
+          "bootstrap_mean": 0.23130996551517985,
+          "ci_95_lower": 0.2051549217743711,
+          "ci_95_upper": 0.2574931757506674
+        }
+      }
+    }
+  }
+}
