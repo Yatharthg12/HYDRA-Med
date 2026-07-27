@@ -1,0 +1,233 @@
+{
+  "execution_timestamp": "2026-07-27T18:46:16.632893+05:30",
+  "python_version": "3.13.2",
+  "operating_system": "Windows-11-10.0.26200-SP0",
+  "package_versions": {
+    "pandas": "2.3.2",
+    "numpy": "2.2.6",
+    "scipy": "1.16.2",
+    "scikit-learn": "1.7.2",
+    "networkx": "3.6.1",
+    "Flask": "3.1.2",
+    "joblib": "1.5.2",
+    "matplotlib": "3.10.6",
+    "torch": "2.11.0",
+    "pytest": "9.0.3"
+  },
+  "dataset_mode": "reduced",
+  "execution_profile": "research",
+  "random_seeds": {
+    "primary": 42,
+    "bootstrap_master": 42042,
+    "gcn_stability": [
+      42,
+      52,
+      62,
+      72,
+      82
+    ],
+    "robustness_trials": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "graph_ablation": 4242
+  },
+  "bootstrap_replicates": 1000,
+  "eligible_encounters": 19531,
+  "unique_patients": 17690,
+  "split_counts": {
+    "counts": {
+      "train": {
+        "encounters": 13715,
+        "patients": 12383,
+        "positive_count": 1559,
+        "positive_prevalence": 0.11367116296026249
+      },
+      "validation": {
+        "encounters": 2927,
+        "patients": 2653,
+        "positive_count": 336,
+        "positive_prevalence": 0.11479330372394944
+      },
+      "test": {
+        "encounters": 2889,
+        "patients": 2654,
+        "positive_count": 330,
+        "positive_prevalence": 0.1142263759086189
+      }
+    },
+    "patient_overlap_counts": {
+      "train_validation": 0,
+      "train_test": 0,
+      "validation_test": 0
+    },
+    "disjoint": true
+  },
+  "total_experiment_duration_seconds": 206.43520210000133,
+  "artifact_hashes": {
+    "artifacts/figures/model_comparison.png": {
+      "sha256": "ea82b96f2017b2deb44b76ba8007765a8102fc4bea42c3402419225698f5db36",
+      "bytes": 46762
+    },
+    "artifacts/figures/robustness.png": {
+      "sha256": "84bfb75789d8dc1a60422906d7c27e6c6014f30451094c1487397fd8ec056ad4",
+      "bytes": 61143
+    },
+    "artifacts/graphs/graph_statistics.json": {
+      "sha256": "1b76f13106e532502f63fd7957d3f3c007f54acc497e526839ea11cf2469f674",
+      "bytes": 2779
+    },
+    "artifacts/graphs/sample_graph.json": {
+      "sha256": "632544079137076f2ddbd3f5b4a17d25bcb7c6ca99e39d99e4ef1f3c7fe4783d",
+      "bytes": 74909
+    },
+    "artifacts/graphs/warshall_iterations.json": {
+      "sha256": "50562d6b0a34f990ebf2bc83a02d01a72e7585d1d61e71e4b73ccf81669f854d",
+      "bytes": 8088
+    },
+    "artifacts/metrics/bootstrap_confidence_intervals.csv": {
+      "sha256": "ff9ac439521ce52e4a6304540a61fd5bb42bca298889f3cc2a242f98ec5a9276",
+      "bytes": 2823
+    },
+    "artifacts/metrics/bootstrap_confidence_intervals.json": {
+      "sha256": "d528fdf6e03b8cf08debc8047a528c03618b4251dad250f834ddacdccd44a989",
+      "bytes": 5487
+    },
+    "artifacts/metrics/dataset_summary.json": {
+      "sha256": "1ab12d0f5fc8b925cddc5116cacade60e85e950d58f5f6b65bcd5292ac2fa398",
+      "bytes": 18002
+    },
+    "artifacts/metrics/experiment_config.json": {
+      "sha256": "04bdc5085fc2eb699b1c08901be4951e70939460dd41234c2fbd6c46b6f155b7",
+      "bytes": 988
+    },
+    "artifacts/metrics/gcn_seed_stability.csv": {
+      "sha256": "e162bf40862aee879c1a396388e7e9c94a19040237bbdc529e50980e266ba0a3",
+      "bytes": 1144
+    },
+    "artifacts/metrics/gcn_seed_stability.json": {
+      "sha256": "06b37b6258574cdac28284b79c6f7b9ac6ccfd978bcb910855c14f15ce8d57d5",
+      "bytes": 61453
+    },
+    "artifacts/metrics/graph_ablation_results.csv": {
+      "sha256": "28bf15407db6959ac6e65adbbfcc65c40d0e3f70a241d43a2d340fe00631528f",
+      "bytes": 1519
+    },
+    "artifacts/metrics/graph_ablation_results.json": {
+      "sha256": "f1056f4d542c12c09c19d1be981ebb26eedf0702ac03914803314776f245ebeb",
+      "bytes": 5619
+    },
+    "artifacts/metrics/model_comparison.csv": {
+      "sha256": "6d5cd197916d35dea143edaabf07e7fb8677013e849865418ff0542e11ef513b",
+      "bytes": 793
+    },
+    "artifacts/metrics/model_comparison.json": {
+      "sha256": "ad7844bd797e832193d0b1f9ca0b21cced2077da17e230ab7ec93f01158c1eef",
+      "bytes": 180382
+    },
+    "artifacts/metrics/paired_model_differences.csv": {
+      "sha256": "9426c8ff64ebd137435200ae7cd619c5b59e1a9c06c26f0af78a079f11ba7b45",
+      "bytes": 3777
+    },
+    "artifacts/metrics/paired_model_differences.json": {
+      "sha256": "6a7636ab96337d21a724f6dba78dc260b51e23e7d6ed9372db25264fd3156384",
+      "bytes": 9872
+    },
+    "artifacts/metrics/pca_component_analysis.csv": {
+      "sha256": "a069c0d40d65d1a6dc78482c994d766e044203bbfc054cba71e2b386de10ad32",
+      "bytes": 882
+    },
+    "artifacts/metrics/pca_component_analysis.json": {
+      "sha256": "4b6795a90c39eb72e243b6ba9c834f638ed5dbea69bcc3b938eacbf96fd10462",
+      "bytes": 2398
+    },
+    "artifacts/metrics/robustness_results.csv": {
+      "sha256": "c112bd483d4435cd8fd56308c5a0cab68e47e1f3124f11623fdf2b40452035f4",
+      "bytes": 1126
+    },
+    "artifacts/metrics/robustness_results.json": {
+      "sha256": "2585a21cb32ed9398c9a2fa51800c73d769bf7fa1e296a798994a118a8d79f01",
+      "bytes": 2659
+    },
+    "artifacts/metrics/robustness_summary.csv": {
+      "sha256": "2442bebd8545e31f3d62b5a165af253a73df7f2af3b402a73763e8ba21d6ac7b",
+      "bytes": 7755
+    },
+    "artifacts/metrics/robustness_summary.json": {
+      "sha256": "85b65f69729678122f5c5ef15e0778ac1b08105480f0f5612ca06c590ae74e22",
+      "bytes": 16213
+    },
+    "artifacts/metrics/robustness_trials.csv": {
+      "sha256": "f282bd902ecdb1a646aa930f36b20c3215518ff6723e8995079f221c2e70cee8",
+      "bytes": 17049
+    },
+    "artifacts/metrics/robustness_trials.json": {
+      "sha256": "1197bec113306989f3d300f2e1f83271ffad18bc269ce3821d118f038be02ead",
+      "bytes": 49483
+    },
+    "artifacts/metrics/run_manifest.json": {
+      "sha256": "37bda3dc30dfe0dd4279b8c7a493b93ef501baa494b4128401e6f44d0bdaa9fc",
+      "bytes": 729
+    },
+    "artifacts/models/gcn_ablation_identity.pt": {
+      "sha256": "0e39ca6f6c9c99f78d4972337972a442b9727ff5fa773f42c135e9cab18c7e98",
+      "bytes": 20521
+    },
+    "artifacts/models/gcn_ablation_random.pt": {
+      "sha256": "6188a3820c8809e2e789fd821c7fea17c4087a40cd1245687690d0954f508857",
+      "bytes": 20501
+    },
+    "artifacts/models/gcn_preprocessor.joblib": {
+      "sha256": "b94e50548057cd0924a6e2b84278906ce7deb04b1bd06ca589ceeec911f4f977",
+      "bytes": 13250
+    },
+    "artifacts/models/gcn_seed_52.pt": {
+      "sha256": "4222824ca93f42edc04d4ae3d97eeba3b637c0d4fa6eb59cbab3e75d11de14a9",
+      "bytes": 20421
+    },
+    "artifacts/models/gcn_seed_62.pt": {
+      "sha256": "738660cb250f4a7648da330d6c1ac0dc2c81e596aa07c120c849f8851092db56",
+      "bytes": 20421
+    },
+    "artifacts/models/gcn_seed_72.pt": {
+      "sha256": "d23456836571d3b6e9fb3edadb222c233988b3af42c7273bae8c91547b378864",
+      "bytes": 20421
+    },
+    "artifacts/models/gcn_seed_82.pt": {
+      "sha256": "cab81701db62b834ed5a96be3303666b787826190a13c1706ae8f22916c6a2a3",
+      "bytes": 20421
+    },
+    "artifacts/models/gcn_state.pt": {
+      "sha256": "50390bec9219645439c21ec00666435865d246a078624f898214697dbba5c7be",
+      "bytes": 20401
+    },
+    "artifacts/models/logistic_regression.joblib": {
+      "sha256": "63af4d606bd1e3db2660b9ab139c347c8eb27cf64fdc68e714f5478dbac69e0a",
+      "bytes": 15030
+    },
+    "artifacts/models/pca_knn.joblib": {
+      "sha256": "2d51abec878c0ac5353239bbeb5717357313e6285af49cbf105ed86abda2cc7d",
+      "bytes": 2899367
+    },
+    "artifacts/models/relation_schema.joblib": {
+      "sha256": "2fd2a6356edc1d1b177a777e9ccf1aae0853aa02bea95667d9914c256576b95c",
+      "bytes": 1928
+    },
+    "artifacts/predictions/case_records.json": {
+      "sha256": "36324eb739d7fdac33c73c0138969c5e03a5866c25d0f2728056003fd7e4154e",
+      "bytes": 9788540
+    },
+    "artifacts/predictions/test_predictions.csv": {
+      "sha256": "8f96261b4f0c8bf8dd644ce8ce01c308e70f68894b6ff5c87b1d85e997baabc2",
+      "bytes": 454637
+    }
+  }
+}
